@@ -5,6 +5,8 @@
         <Hero class="mt-4" />
 
         <AboutMe class="mt-8" />
+
+        <Study class="mt-4" />
     </div>
 
     <Footer />
@@ -14,5 +16,6 @@
 import Header from "./components/Header.vue";
 import Hero from "./components/Hero.vue";
 import AboutMe from "./components/about/AboutMe.vue";
+import Study from "./components/study/Study.vue";
 import Footer from "./components/Footer.vue";
 </script>
