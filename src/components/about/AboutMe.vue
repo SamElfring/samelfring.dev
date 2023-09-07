@@ -23,5 +23,5 @@
 </template>
 
 <script setup>
-import AboutMeBlock from './AboutMeBlock.vue';
+import AboutMeBlock from "./AboutMeBlock.vue";
 </script>
