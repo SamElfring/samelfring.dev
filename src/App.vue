@@ -16,6 +16,6 @@
 import Header from "./components/Header.vue";
 import Hero from "./components/Hero.vue";
 import AboutMe from "./components/about/AboutMe.vue";
-import Study from "./components/study/Study.vue";
+import Study from "./components/Study.vue";
 import Footer from "./components/Footer.vue";
 </script>
