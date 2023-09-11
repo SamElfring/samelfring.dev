@@ -1,6 +1,10 @@
 <template>
     <ol class="lg:hidden relative border-l border-slate-400">
-        <li v-for="item in items" :key="item.title" class="mb-4 ml-4">
+        <li
+            v-for="item in items"
+            :key="item.title"
+            class="mb-4 ml-4"
+        >
             <div
                 class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"
             ></div>
@@ -13,7 +17,11 @@
     </ol>
 
     <ol class="hidden lg:flex items-start">
-        <li v-for="item in items" :key="item.title" class="relative max-w-sm">
+        <li
+            v-for="item in items"
+            :key="item.title"
+            class="relative max-w-sm"
+        >
             <div class="flex items-center">
                 <div
                     class="absolute w-3 h-3 bg-gray-200 rounded-full border border-white"
