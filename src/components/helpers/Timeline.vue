@@ -6,7 +6,7 @@
             class="mb-4 ml-4"
         >
             <div
-                class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"
+                class="absolute w-3 h-3 bg-blue-600 rounded-full mt-1.5 -left-1.5 border border-blue-600"
             ></div>
             <time class="mb-1 text-sm leading-none text-slate-400">{{
                 item.time
@@ -24,7 +24,7 @@
         >
             <div class="flex items-center">
                 <div
-                    class="absolute w-3 h-3 bg-gray-200 rounded-full border border-white"
+                    class="absolute w-3 h-3 bg-blue-600 rounded-full border border-blue-600"
                 ></div>
                 <div class="flex w-full bg-slate-400 h-0.5"></div>
             </div>
