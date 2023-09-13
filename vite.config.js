@@ -17,7 +17,7 @@ export default defineConfig({
     configureWebpack: {
         plugins: [
             new GoogleFontsPlugin({
-                fonts: [{ family: "Poppins", variants: ["500", "700"] }]
+                fonts: [{ family: "Poppins" }]
             })
         ]
     }
