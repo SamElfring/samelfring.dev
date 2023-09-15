@@ -3,7 +3,7 @@
         <div
             v-for="item in navItems"
             :key="item[0]"
-            class="flex justify-center items-center border-2 border-blue-700 rounded-lg hover:bg-blue-700"
+            class="flex justify-center items-center border-2 border-slate-700 rounded-lg hover:border-blue-700 bg-gradient-to-r from-slate-900 to-slate-800"
         >
             <a
                 :href="item[0]"
