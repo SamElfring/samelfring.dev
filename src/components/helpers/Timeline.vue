@@ -1,5 +1,5 @@
 <template>
-    <ol class="lg:hidden relative border-l border-slate-400">
+    <ol class="lg:hidden relative border-l border-slate-600">
         <li
             v-for="item in items"
             :key="item.title"
@@ -22,7 +22,7 @@
         >
             <div class="flex items-center">
                 <div class="absolute w-3 h-3 bg-blue-600 rounded-full border border-blue-600"></div>
-                <div class="flex w-full bg-slate-400 h-0.5"></div>
+                <div class="flex w-full bg-slate-600 h-0.5"></div>
             </div>
             <div class="mt-3 pr-4">
                 <h3 class="text-lg font-semibold text-white">
