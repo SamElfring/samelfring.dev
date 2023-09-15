@@ -1,5 +1,3 @@
-@import "./base.css";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,4 +11,10 @@
 
 body {
     @apply bg-slate-900 text-white;
+}
+
+@layer components {
+    .section-title {
+        @apply w-max font-bold border-b-2 border-slate-400 mb-4
+    }
 }

@@ -1,6 +1,6 @@
 <template>
     <div id="about-me">
-        <p class="w-max font-bold border-b-2 border-slate-500">Over mij</p>
+        <p class="section-title">Over mij</p>
 
         <div class="grid grid-cols-1 mt-4 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <AboutMeBlock
