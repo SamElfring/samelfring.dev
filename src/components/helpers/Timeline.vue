@@ -5,12 +5,10 @@
             :key="item.title"
             class="mb-4 ml-4"
         >
-            <div
-                class="absolute w-3 h-3 bg-blue-600 rounded-full mt-1.5 -left-1.5 border border-blue-600"
-            ></div>
-            <time class="mb-1 text-sm leading-none text-slate-400">{{
-                item.time
-            }}</time>
+            <div class="absolute w-3 h-3 bg-blue-600 rounded-full mt-1.5 -left-1.5 border border-blue-600"></div>
+            <time class="mb-1 text-sm leading-none text-slate-400">
+                {{ item.time }}
+            </time>
             <h3 class="text-lg font-semibold text-white">{{ item.title }}</h3>
             <p class="mb-4 text-base text-slate-400">{{ item.text }}</p>
         </li>
@@ -23,19 +21,16 @@
             class="relative max-w-sm"
         >
             <div class="flex items-center">
-                <div
-                    class="absolute w-3 h-3 bg-blue-600 rounded-full border border-blue-600"
-                ></div>
+                <div class="absolute w-3 h-3 bg-blue-600 rounded-full border border-blue-600"></div>
                 <div class="flex w-full bg-slate-400 h-0.5"></div>
             </div>
             <div class="mt-3 pr-4">
                 <h3 class="text-lg font-semibold text-white">
                     {{ item.title }}
                 </h3>
-                <time
-                    class="block mb-2 text-sm font-normal leading-none text-gray-400"
-                    >{{ item.time }}</time
-                >
+                <time class="block mb-2 text-sm font-normal leading-none text-gray-400">
+                    {{ item.time }}
+                </time>
                 <p class="text-base font-normal text-gray-500">
                     {{ item.text }}
                 </p>

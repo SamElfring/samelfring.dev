@@ -1,8 +1,6 @@
 <template>
     <div id="study">
-        <p class="w-max font-bold border-b-2 border-slate-400 mb-4">
-            Opleidingen
-        </p>
+        <p class="w-max font-bold border-b-2 border-slate-400 mb-4">Opleidingen</p>
 
         <Timeline :items="timeLineItems" />
     </div>

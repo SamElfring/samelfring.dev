@@ -27,7 +27,7 @@ import Footer from "./components/Footer.vue";
 </script>
 
 <style>
-    * {
-        scroll-behavior: smooth;
-    }
+* {
+    scroll-behavior: smooth;
+}
 </style>

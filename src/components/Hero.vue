@@ -10,12 +10,10 @@
             <p class="text-sm text-slate-500 font-thin">Software Developer</p>
             <h1 class="text-3xl font-bold">Sam Elfring</h1>
             <p class="text-slate-400 mt-2">
-                Ik ben Sam, een 20-jarige Software Developer met een passie voor
-                het creëren van digitale oplossingen. Ik studeer aan het Saxion
-                in Enschede bij de opleiding Software Development. In mijn vrije
-                tijd ben ik toegewijd aan zowel fitness als voetbal, omdat ik
-                geloof dat een gezonde geest en een gezond lichaam hand in hand
-                gaan met mijn creatieve werk
+                Ik ben Sam, een 20-jarige Software Developer met een passie voor het creëren van digitale oplossingen.
+                Ik studeer aan het Saxion in Enschede bij de opleiding Software Development. In mijn vrije tijd ben ik
+                toegewijd aan zowel fitness als voetbal, omdat ik geloof dat een gezonde geest en een gezond lichaam
+                hand in hand gaan met mijn creatieve werk
             </p>
 
             <div class="mt-4 text-slate-300">
@@ -24,9 +22,7 @@
                 >
                     Download CV
                 </button>
-                <button
-                    class="border border-white px-4 py-1 rounded-full hover:bg-white hover:text-black"
-                >
+                <button class="border border-white px-4 py-1 rounded-full hover:bg-white hover:text-black">
                     Contact
                 </button>
             </div>
