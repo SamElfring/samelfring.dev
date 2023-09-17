@@ -2,7 +2,7 @@
     <div id="projects">
         <div class="section-title">Projecten</div>
 
-        <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
             <div
                 v-for="item in projectItems"
                 :key="item.title"
