@@ -19,6 +19,7 @@
 const navItems = [
     ["#about-me", "Over mij"],
     ["#study", "Opleidingen"],
-    ["#experiences", "Ervaringen"]
+    ["#experiences", "Ervaringen"],
+    ["#projects", "Projecten"]
 ];
 </script>
