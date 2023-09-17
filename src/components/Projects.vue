@@ -2,17 +2,17 @@
     <div id="projects">
         <div class="section-title">Projecten</div>
 
-        <div class="grid grid-cols-1">
+        <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div
                 v-for="item in projectItems"
                 :key="item.title"
-                class="border border-slate-600"
+                class="border border-slate-600 flex flex-col"
             >
                 <div
-                    class="bg-center bg-cover h-60 p-2 relative flex items-end"
+                    class="bg-center bg-contain bg-no-repeat h-56 p-2 relative flex items-end"
                     :style="{ backgroundImage: `url('${item.img}')` }"
                 >
-                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b    from-transparent to-black"></div>
+                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-black"></div>
 
                     <div class="z-10 p-2 flex justify-between items-center w-full">
                         <p class="font-bold text-lg">{{ item.title }}</p>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
 
-                <div class="p-2 bg-slate-800">
+                <div class="flex-1 p-2 bg-slate-800">
                     <p class="text-slate-300">{{ item.description }}</p>
                 </div>
             </div>
@@ -45,12 +45,35 @@ const projectItems = [
     {
         title: "Synology Photo App",
         img: "img/projects/synologyapp.png",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente aut, \
-                        illo consequuntur molestiae, pariatur optio hic placeat quas perferendis \
-                        labore eum mollitia laborum assumenda necessitatibus ab possimus et distinctio eos?",
-        urls: [
-            ["fa-brands fa-github", "#"]
-        ]
+        description:
+            "Via Synology Photos hebben wij voor over 25 jaar aan foto's opgeslagen. \
+                        Hiervoor heb ik met TypeScript een app gemaakt die elke dag via de mail \
+                        foto's naar de gebruikers stuurt van die dag een aantal jaar geleden."
+    },
+    {
+        title: "RentACar (Oefen examen)",
+        img: "img/projects/rentacar.png",
+        description:
+            "In dit proefexamen maken wij een auto verhuur website voor meneer Jansen. \
+            Het bedrijf FastDevelopment maakt in opdracht software. \
+            Het autoverhuurbedrijf Rent-a-Car, heeft gevraagd een nieuwe webapplicatie te bouwen.",
+        urls: [["fa-brands fa-github", "https://github.com/SamElfring/RentACar"]]
+    },
+    {
+        title: "Calc4You",
+        img: "img/projects/calc4you.png",
+        description:
+            "Voor een school opdracht heb ik samen in een SCRUM team een \
+            rekenmachine applicatie gemaakt in .NET Core. Deze applicatie gebruikt \
+            ook leeftijdsverificatie voor het gebruik van de rekenmachine.",
+        urls: [["fa-brands fa-github", "https://github.com/LucasHuls/Calc4You-Project-Groep-5"]]
+    },
+    {
+        title: "GameFinder",
+        img: "img/projects/gamefinder.png",
+        description:
+            "Tijdens mijn stage bij Cube B.V. heb ik (om het Vue.js framework te leren kennen) heb ik een opdracht gemaakt waarmee je via de IGDB api elk spel kan vinden met behulp van filters!",
+        urls: [["fa-brands fa-github", "https://github.com/SamElfring/Stage-Opdracht-GameFinder"]]
     }
 ];
 </script>
