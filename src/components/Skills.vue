@@ -1,0 +1,39 @@
+<template>
+    <div id="skills">
+        <div class="section-title">Vaardigheden</div>
+
+        <div class="flex flex-wrap gap-4">
+            <div
+                v-for="skill in skills"
+                class="p-2 rounded-md border-2 border-slate-400 flex flex-col justify-center items-center w-32"
+            >
+                <font-awesome-icon
+                    :icon="skill.icon"
+                    class="text-8xl text-slate-200"
+                ></font-awesome-icon>
+
+                <p class="font-semibold text-slate-400 mt-2">{{ skill.name }}</p>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script setup>
+const skills = [
+    { icon: "fa-brands fa-vuejs", name: "Vue.js" },
+    { icon: "fa-brands fa-laravel", name: "Laravel" },
+    { icon: "fa-brands fa-python", name: "Python" },
+    { icon: "fa-brands fa-js", name: "JavaScript" },
+    { icon: "fa-brands fa-php", name: "PHP" },
+    { icon: "fa-brands fa-html5", name: "HTML" },
+    { icon: "fa-brands fa-css3-alt", name: "CSS" },
+    { icon: "fa-brands fa-sass", name: "Sass" },
+    { icon: "fa-wind", name: "Tailwindcss" },
+    { icon: "fa-brands fa-node", name: "Node.js" },
+    { icon: "fa-brands fa-yarn", name: "Yarn" },
+    { icon: "fa-brands fa-git-alt", name: "Git" },
+    { icon: "fa-brands fa-java", name: "Java" },
+    { icon: "fa-brands fa-windows", name: "Windows" },
+    { icon: "fa-brands fa-linux", name: "Arch Linux" },
+];
+</script>
