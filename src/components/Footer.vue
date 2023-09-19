@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen bg-slate-800 border-t-2 border-t-slate-700 p-4 flex justify-center gap-4">
+    <div class="p-4 flex justify-center gap-4 bg-slate-800 border-t-2 border-t-slate-700">
         <a
             href="https://www.facebook.com/sam.elfring.3/"
             target="_blank"
