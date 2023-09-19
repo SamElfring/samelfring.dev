@@ -8,9 +8,11 @@
 
         <AboutMe class="mt-8" />
 
-        <Study class="mt-4" />
-
-        <Experiences class="mt-4" />
+        <div class="mt-8 block lg:flex lg:gap-16">
+            <Experiences class="flex-1" />
+            
+            <Study class="flex-1" />
+        </div>
 
         <Projects class="mt-4" />
     </div>
