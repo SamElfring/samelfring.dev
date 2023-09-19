@@ -30,9 +30,3 @@ import Experiences from "./components/Experiences.vue";
 import Projects from "./components/Projects.vue";
 import Footer from "./components/Footer.vue";
 </script>
-
-<style>
-* {
-    scroll-behavior: smooth;
-}
-</style>
