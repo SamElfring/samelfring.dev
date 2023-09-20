@@ -18,7 +18,7 @@
                     :src="`/img/custom-icons/${skill.img}`"
                     :alt="skill.name"
                     class="w-14 object-contain"
-                >
+                />
 
                 <p class="font-semibold text-slate-400 mt-2">{{ skill.name }}</p>
             </div>
