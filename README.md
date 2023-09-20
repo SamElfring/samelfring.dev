@@ -1,29 +1,18 @@
 # samelfring.nl
 
-This template should help get you started developing with Vue 3 in Vite.
+This is my personal portfolio website built using Vue.js. It showcases my skills, projects, and provides information about me. You can view the live website here: [Portfolio Website](https://samelfring.github.io/samelfring.nl/)
 
-## Recommended IDE Setup
+## Table of Contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 
-## Customize configuration
+## Features
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- **Portfolio Showcase:** This website displays my skills, projects and information about me.
+- **Responsive Design:** The website is fully responsive.
 
-## Project Setup
+## Technologies Used
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Vue.js: The JavaScript framework used to build the website.
+- Tailwind CSS: For styling the website.
