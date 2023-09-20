@@ -8,9 +8,17 @@
                 class="p-2 rounded-md border-2 border-slate-400 flex flex-col justify-center items-center w-[6.5rem]"
             >
                 <font-awesome-icon
+                    v-if="skill.icon"
                     :icon="skill.icon"
                     class="text-6xl text-slate-200"
                 ></font-awesome-icon>
+
+                <img
+                    v-else
+                    :src="`/img/custom-icons/${skill.img}`"
+                    :alt="skill.name"
+                    class="w-14 object-contain"
+                >
 
                 <p class="font-semibold text-slate-400 mt-2">{{ skill.name }}</p>
             </div>
@@ -35,5 +43,6 @@ const skills = [
     { icon: "fa-brands fa-java", name: "Java" },
     { icon: "fa-brands fa-windows", name: "Windows" },
     { icon: "fa-brands fa-linux", name: "Arch Linux" },
+    { img: "csharp.png", name: "C#" }
 ];
 </script>
