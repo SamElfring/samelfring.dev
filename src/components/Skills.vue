@@ -36,7 +36,7 @@ const skills = [
     { icon: "fa-brands fa-html5", name: "HTML" },
     { icon: "fa-brands fa-css3-alt", name: "CSS" },
     { icon: "fa-brands fa-sass", name: "Sass" },
-    { icon: "fa-wind", name: "Tailwindcss" },
+    { img: "img/custom-icons/tailwindcss.png", name: "Tailwind" },
     { icon: "fa-brands fa-node", name: "Node.js" },
     { icon: "fa-brands fa-yarn", name: "Yarn" },
     { icon: "fa-brands fa-git-alt", name: "Git" },
