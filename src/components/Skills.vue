@@ -2,14 +2,14 @@
     <div id="skills">
         <div class="section-title">Vaardigheden</div>
 
-        <div class="flex flex-wrap gap-4">
+        <div class="flex flex-wrap gap-3 lg:gap-4">
             <div
                 v-for="skill in skills"
-                class="p-2 rounded-md border-2 border-slate-400 flex flex-col justify-center items-center w-32"
+                class="p-2 rounded-md border-2 border-slate-400 flex flex-col justify-center items-center w-[6.5rem]"
             >
                 <font-awesome-icon
                     :icon="skill.icon"
-                    class="text-8xl text-slate-200"
+                    class="text-6xl text-slate-200"
                 ></font-awesome-icon>
 
                 <p class="font-semibold text-slate-400 mt-2">{{ skill.name }}</p>
