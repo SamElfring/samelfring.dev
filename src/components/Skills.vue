@@ -15,7 +15,7 @@
 
                 <img
                     v-else
-                    :src="`/img/custom-icons/${skill.img}`"
+                    :src="skill.img"
                     :alt="skill.name"
                     class="w-14 object-contain"
                 />
@@ -43,6 +43,6 @@ const skills = [
     { icon: "fa-brands fa-java", name: "Java" },
     { icon: "fa-brands fa-windows", name: "Windows" },
     { icon: "fa-brands fa-linux", name: "Arch Linux" },
-    { img: "csharp.png", name: "C#" }
+    { img: "img/custom-icons/csharp.png", name: "C#" }
 ];
 </script>
