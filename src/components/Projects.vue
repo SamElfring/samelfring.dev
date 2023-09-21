@@ -43,12 +43,13 @@
 <script setup>
 const projectItems = [
     {
-        title: "Synology Photo App",
+        title: "Synology Photos Reminder",
         img: "img/projects/synologyapp.png",
         description:
-            "Via Synology Photos hebben wij voor over 25 jaar aan foto's opgeslagen. \
-                        Hiervoor heb ik met TypeScript een app gemaakt die elke dag via de mail \
-                        foto's naar de gebruikers stuurt van die dag een aantal jaar geleden."
+            "Dit Node.js project zoekt naar foto's die zijn opgeslagen op een Synology NAS-server. \
+            Het vindt foto's die op de huidige dag zijn gemaakt, maar een \
+            willekeurig aantal jaren geleden, en stuurt ze vervolgens naar uw e-mail.",
+        urls: [["fa-brands fa-github", "https://github.com/SamElfring/SynologyPhotosReminder"]]
     },
     {
         title: "RentACar (Oefen examen)",
