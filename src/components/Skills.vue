@@ -32,6 +32,7 @@ const skills = [
     { icon: "fa-brands fa-laravel", name: "Laravel" },
     { icon: "fa-brands fa-python", name: "Python" },
     { icon: "fa-brands fa-js", name: "JavaScript" },
+    { img: "img/custom-icons/typescript.png", name: "TypeScript" },
     { icon: "fa-brands fa-php", name: "PHP" },
     { icon: "fa-brands fa-html5", name: "HTML" },
     { icon: "fa-brands fa-css3-alt", name: "CSS" },
