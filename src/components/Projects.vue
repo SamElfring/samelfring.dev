@@ -6,7 +6,7 @@
             <div
                 v-for="item in projectItems"
                 :key="item.title"
-                class="border border-slate-600 flex flex-col"
+                class="border border-slate-600 flex flex-col hover:scale-[1.01]"
             >
                 <div
                     class="bg-center bg-contain bg-no-repeat h-56 p-2 relative flex items-end"
