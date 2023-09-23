@@ -1,33 +1,26 @@
 <template>
-    <div class="p-4 flex justify-center gap-4 bg-slate-800 border-t-2 border-t-slate-700">
-        <a
-            href="https://www.facebook.com/sam.elfring.3/"
-            target="_blank"
-        >
-            <font-awesome-icon
-                icon="fa-brands fa-facebook"
-                class="text-xl"
-            ></font-awesome-icon>
-        </a>
+    <div class="p-4 bg-slate-800 border-t-2 border-t-slate-700 text-center">
+        <div class="flex justify-center gap-4">
+            <a
+                v-for="link in footerLinks"
+                :href="link.link"
+                target="_blank"
+            >
+                <font-awesome-icon
+                    :icon="link.icon"
+                    class="text-xl"
+                ></font-awesome-icon>
+            </a>
+        </div>
 
-        <a
-            href="https://www.instagram.com/sam_elfring/"
-            target="_blank"
-        >
-            <font-awesome-icon
-                icon="fa-brands fa-instagram"
-                class="text-xl"
-            ></font-awesome-icon>
-        </a>
-
-        <a
-            href="https://www.linkedin.com/in/sam-elfring-061822194/"
-            target="_blank"
-        >
-            <font-awesome-icon
-                icon="fa-brands fa-linkedin"
-                class="text-xl"
-            ></font-awesome-icon>
-        </a>
+        <p class="mt-2 text-slate-300">&copy; {{ new Date().getFullYear() }} - Sam Elfring</p>
     </div>
 </template>
+
+<script setup>
+const footerLinks = [
+    { icon: "fa-brands fa-facebook", link: "https://www.facebook.com/sam.elfring.3/" },
+    { icon: "fa-brands fa-instagram", link: "https://www.instagram.com/sam_elfring/" },
+    { icon: "fa-brands fa-linkedin", link: "https://www.linkedin.com/in/sam-elfring-061822194/" }
+];
+</script>
