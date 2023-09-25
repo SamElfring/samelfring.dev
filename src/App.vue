@@ -17,6 +17,8 @@
         <Projects class="mt-8" />
 
         <Skills class="mt-8" />
+
+        <Contact class="mt-8" />
     </div>
 
     <Footer />
@@ -31,5 +33,6 @@ import Study from "./components/Study.vue";
 import Experiences from "./components/Experiences.vue";
 import Projects from "./components/Projects.vue";
 import Skills from "./components/Skills.vue";
+import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
 </script>
