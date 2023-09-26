@@ -22,9 +22,12 @@
                 >
                     Download CV
                 </button>
-                <button class="border border-white px-4 py-1 rounded-full hover:bg-white hover:text-black">
+                <a
+                    href="#contact"
+                    class="border border-white px-4 py-1 rounded-full cursor-pointer hover:bg-white hover:text-black"
+                >
                     Contact
-                </button>
+                </a>
             </div>
         </div>
     </div>
