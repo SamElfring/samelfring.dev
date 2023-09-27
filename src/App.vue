@@ -6,42 +6,27 @@
 
         <NavigationButtons class="mt-8" />
 
-        <AboutMe
-            class="mt-8"
-            v-motion-slide-top
-            :delay="200"
-        />
+        <AboutMe class="mt-8" />
 
         <div class="mt-8 block lg:flex lg:gap-16">
-            <Experiences
-                class="flex-1"
-                v-motion-slide-visible-once-top
-                :delay="200"
-            />
+            <Experiences class="flex-1" />
 
-            <Study
-                class="flex-1"
-                v-motion-slide-visible-once-top
-                :delay="200"
-            />
+            <Study class="flex-1" />
         </div>
 
         <Projects
             class="mt-8"
             v-motion-slide-visible-once-top
-            :delay="200"
         />
 
         <Skills
             class="mt-8"
             v-motion-slide-visible-once-top
-            :delay="200"
         />
 
         <Contact
             class="mt-8"
             v-motion-slide-visible-once-top
-            :delay="200"
         />
     </div>
 
