@@ -10,4 +10,12 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 library.add(fas, fab);
 
-createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
+// Vueuse motion
+import { MotionPlugin } from "@vueuse/motion";
+
+const app = createApp(App);
+
+app.component("font-awesome-icon", FontAwesomeIcon);
+app.use(MotionPlugin);
+
+app.mount("#app");
