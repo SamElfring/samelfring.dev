@@ -6,9 +6,7 @@
         </div>
 
         <ul class="hidden md:flex gap-4">
-            <li
-                v-for="link in navLinks"
-            >
+            <li v-for="link in navLinks">
                 <a
                     :href="link.link"
                     class="text-slate-400 hover:underline hover:text-white"
@@ -26,6 +24,7 @@ const navLinks = [
     { name: "Ervaringen", link: "#experiences" },
     { name: "Opleidingen", link: "#study" },
     { name: "Projecten", link: "#projects" },
-    { name: "Vaardigheden", link: "#skills" }
+    { name: "Vaardigheden", link: "#skills" },
+    { name: "Contact", link: "#contact" }
 ];
 </script>
