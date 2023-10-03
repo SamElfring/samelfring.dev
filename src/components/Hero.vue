@@ -17,11 +17,13 @@
             </p>
 
             <div class="mt-4 text-slate-300">
-                <button
-                    class="mr-4 border-blue-500 border px-4 py-1 rounded-full shadow-2xl hover:bg-blue-500 hover:text-white"
+                <a
+                    href="/files/cv_Sam Elfring.pdf"
+                    download
+                    class="mr-4 border-blue-500 border px-4 py-2 rounded-full shadow-2xl hover:bg-blue-500 hover:text-white"
                 >
                     Download CV
-                </button>
+                </a>
                 <a
                     href="#contact"
                     class="border border-white px-4 py-2 rounded-full cursor-pointer hover:bg-white hover:text-black"
