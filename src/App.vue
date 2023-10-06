@@ -1,6 +1,6 @@
 <template>
     <Header />
-    
+
     <div class="p-4">
         <Hero class="mt-8" />
 
