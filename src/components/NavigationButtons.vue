@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-2 gap-4 sm:hidden">
+    <section class="grid grid-cols-2 gap-4 sm:hidden">
         <div
             v-for="item in navItems"
             :key="item[0]"
@@ -12,7 +12,7 @@
                 {{ item[1] }}
             </a>
         </div>
-    </div>
+    </section>
 </template>
 
 <script setup>

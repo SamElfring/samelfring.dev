@@ -1,5 +1,5 @@
 <template>
-    <div id="contact">
+    <section id="contact">
         <p class="section-title">Contact</p>
 
         <form
@@ -45,7 +45,7 @@
                 Verstuur
             </button>
         </form>
-    </div>
+    </section>
 </template>
 
 <script setup>

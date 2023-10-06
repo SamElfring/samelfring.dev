@@ -1,9 +1,9 @@
 <template>
-    <div id="experiences">
+    <section id="experiences">
         <p class="section-title">Ervaringen</p>
 
         <Timeline :items="timeLineItems" />
-    </div>
+    </section>
 </template>
 
 <script setup>

@@ -1,5 +1,5 @@
 <template>
-    <div id="about-me">
+    <section id="about-me">
         <p class="section-title">Over mij</p>
 
         <div class="grid grid-cols-1 mt-4 gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -25,7 +25,7 @@
                 text="Zelf ben ik een groot dierenfan. Ik heb mijn hele leven samen met dieren geleefd en op dit moment hebben wij 3 honden in huis."
             />
         </div>
-    </div>
+    </section>
 </template>
 
 <script setup>

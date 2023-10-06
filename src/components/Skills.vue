@@ -1,5 +1,5 @@
 <template>
-    <div id="skills">
+    <section id="skills">
         <div class="section-title">Vaardigheden</div>
 
         <div class="flex flex-wrap gap-3 lg:gap-4">
@@ -23,7 +23,7 @@
                 <p class="font-semibold text-slate-400 mt-2">{{ skill.name }}</p>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script setup>
