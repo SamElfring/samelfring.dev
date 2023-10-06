@@ -1,5 +1,5 @@
 <template>
-    <div class="md:flex md:items-center md:justify-center md:gap-20 md:mt-20">
+    <div class="md:flex md:items-center md:justify-center md:gap-20 md:h-screen">
         <img
             src="/img/sam.png"
             alt="Person"
