@@ -1,5 +1,5 @@
 <template>
-    <section class="md:flex md:items-center md:justify-center md:gap-20 md:h-screen">
+    <section class="md:flex md:items-center md:justify-center md:gap-20 md:h-screen mt-12 md:mt-0">
         <img
             src="/img/sam.png"
             alt="Person"
