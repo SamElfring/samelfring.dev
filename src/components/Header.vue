@@ -1,5 +1,5 @@
 <template>
-    <nav class="fixed w-full p-4 flex justify-between items-center z-10" ref="header">
+    <nav class="fixed w-full p-4 flex justify-between items-center z-10 transition-all duration-500" ref="header">
         <div class="flex items-center">
             <div class="bg-blue-600 px-3 py-1 mr-2 rounded-full font-black text-lg">S</div>
             <h2 class="text-lg font-bold">Sam Elfring</h2>
