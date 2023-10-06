@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex justify-between items-center">
+    <nav class="fixed w-full p-4 flex justify-between items-center z-10" ref="header">
         <div class="flex items-center">
             <div class="bg-blue-600 px-3 py-1 mr-2 rounded-full font-black text-lg">S</div>
             <h2 class="text-lg font-bold">Sam Elfring</h2>
@@ -7,10 +7,7 @@
 
         <ul class="hidden md:flex gap-4">
             <li v-for="link in navLinks">
-                <a
-                    :href="link.link"
-                    class="text-slate-400 hover:underline hover:text-white"
-                >
+                <a :href="link.link" class="text-slate-400 hover:underline hover:text-white">
                     {{ link.name }}
                 </a>
             </li>
@@ -19,6 +16,8 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from 'vue';
+
 const navLinks = [
     { name: "Over mij", link: "#about-me" },
     { name: "Ervaringen", link: "#experiences" },
@@ -27,4 +26,17 @@ const navLinks = [
     { name: "Vaardigheden", link: "#skills" },
     { name: "Contact", link: "#contact" }
 ];
+
+const header = ref(null);
+
+onMounted(() => {
+    window.addEventListener("scroll", () => {
+        const headerClasses = ["bg-slate-800", "py-2"];
+
+        if (window.scrollY > 0)
+            header.value.classList.add(...headerClasses);
+        else
+            header.value.classList.remove(...headerClasses);
+    });
+});
 </script>
