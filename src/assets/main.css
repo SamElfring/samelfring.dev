@@ -15,7 +15,7 @@ body {
 }
 
 section {
-    @apply scroll-mt-16;
+    @apply md:scroll-mt-16;
 }
 
 @layer components {
