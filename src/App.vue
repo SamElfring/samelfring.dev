@@ -14,20 +14,11 @@
             <Study class="flex-1" />
         </div>
 
-        <Projects
-            class="mt-8"
-            v-motion-slide-visible-once-top
-        />
+        <Projects class="mt-8" />
 
-        <Skills
-            class="mt-8"
-            v-motion-slide-visible-once-top
-        />
+        <Skills class="mt-8" />
 
-        <Contact
-            class="mt-8"
-            v-motion-slide-visible-once-top
-        />
+        <Contact class="mt-8" />
     </div>
 
     <Footer />
