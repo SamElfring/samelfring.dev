@@ -1,6 +1,6 @@
 <template>
     <nav
-        class="fixed w-full p-4 flex justify-between items-center z-10 transition-all duration-500"
+        class="md:fixed w-full p-4 flex justify-between items-center z-10 transition-all duration-500"
         ref="header"
     >
         <div class="flex items-center">
@@ -37,10 +37,13 @@ const header = ref(null);
 
 onMounted(() => {
     window.addEventListener("scroll", () => {
-        const headerClasses = ["bg-slate-800", "py-2"];
 
-        if (window.scrollY > 0) header.value.classList.add(...headerClasses);
-        else header.value.classList.remove(...headerClasses);
+        if (window.innerWidth > 768 /* Medium screen breakpoint */) {
+            const headerClasses = ["bg-slate-800", "py-2"];
+    
+            if (window.scrollY > 0) header.value.classList.add(...headerClasses);
+            else header.value.classList.remove(...headerClasses);
+        }
     });
 });
 </script>
