@@ -1,5 +1,5 @@
 <template>
-    <section class="grid grid-cols-2 gap-4 sm:hidden">
+    <section class="grid grid-cols-2 gap-4 md:hidden">
         <div
             v-for="item in navItems"
             :key="item[0]"
