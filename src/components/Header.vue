@@ -1,6 +1,6 @@
 <template>
     <nav
-        class="md:fixed w-full p-4 flex justify-between items-center z-10 transition-all duration-500"
+        class="md:fixed w-full p-4 flex justify-between items-center z-[999] transition-all duration-500"
         ref="header"
     >
         <div class="flex items-center">
