@@ -44,6 +44,7 @@ const skills = [
     { icon: "fa-brands fa-java", name: "Java" },
     { icon: "fa-brands fa-windows", name: "Windows" },
     { icon: "fa-brands fa-linux", name: "Arch Linux" },
-    { img: "img/custom-icons/csharp.png", name: "C#" }
+    { img: "img/custom-icons/csharp.png", name: "C#" },
+    { img: "img/custom-icons/nuxtjs.png", name: "Nuxt.js" }
 ];
 </script>
