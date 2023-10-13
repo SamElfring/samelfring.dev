@@ -49,7 +49,7 @@
 </template>
 
 <script setup>
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const sendMail = (e) => {
     emailjs.sendForm("service_8rad7a7", "template_bwhqzqj", e.target, "vs9bmuVjqREpH4nml").then(

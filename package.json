@@ -10,12 +10,12 @@
         "check-format": "prettier . --check"
     },
     "dependencies": {
+        "@emailjs/browser": "^3.11.0",
         "@fortawesome/fontawesome-svg-core": "^6.4.2",
         "@fortawesome/free-brands-svg-icons": "^6.4.2",
         "@fortawesome/free-regular-svg-icons": "^6.4.2",
         "@fortawesome/free-solid-svg-icons": "^6.4.2",
         "@fortawesome/vue-fontawesome": "^3.0.3",
-        "emailjs-com": "^3.2.0",
         "vue": "^3.3.4",
         "vue-i18n": "^9.5.0"
     },
