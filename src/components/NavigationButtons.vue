@@ -9,7 +9,7 @@
                 :href="item[0]"
                 class="font-semibold w-full text-center py-2"
             >
-                {{ item[1] }}
+                {{ $t(item[1]) }}
             </a>
         </div>
     </section>
@@ -17,9 +17,9 @@
 
 <script setup>
 const navItems = [
-    ["#about-me", "Over mij"],
-    ["#study", "Opleidingen"],
-    ["#experiences", "Ervaringen"],
-    ["#projects", "Projecten"]
+    ["#about-me", "main.aboutMe"],
+    ["#study", "main.studies"],
+    ["#experiences", "main.experiences"],
+    ["#projects", "main.projects"]
 ];
 </script>

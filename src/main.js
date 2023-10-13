@@ -9,10 +9,13 @@ import { createI18n } from "vue-i18n";
 // Translations
 import en from "./locales/en.json";
 import nl from "./locales/nl.json";
+import de from "./locales/de.json";
 
 const i18n = createI18n({
     locale: "nl",
-    messages: { en, nl }
+    fallbackLocale: "nl",
+    messages: { en, nl, de },
+    legacy: false
 });
 
 // Font Awesome

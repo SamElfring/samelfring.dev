@@ -1,0 +1,78 @@
+{
+    "main": {
+        "aboutMe": "Over mij",
+        "experiences": "Ervaringen",
+        "studies": "Opleidingen",
+        "projects": "Projecten",
+        "skills": "Vaardigheden",
+        "contact": "Contact"
+    },
+    "hero": {
+        "description": "Ik ben Sam, een 20-jarige Software Developer met een passie voor het creëren van digitale oplossingen. Ik studeer aan het Saxion in Enschede bij de opleiding Software Development. In mijn vrije tijd ben ik toegewijd aan zowel fitness als voetbal, omdat ik geloof dat een gezonde geest en een gezond lichaam hand in hand gaan met mijn creatieve werk."
+    },
+    "aboutMe": {
+        "blocks": {
+            "softwareDevelopment": {
+                "title": "Software Development",
+                "text": "Mijn dagen worden gevuld met het schrijven van code en het ontwikkelen van innovatieve digitale oplossingen. Tijdens mijn werk en opleiding werk ik aan boeiende projecten in de wereld van softwareontwikkeling."
+            },
+            "fitness": {
+                "title": "Fitness",
+                "text": "Buiten mijn programmeerwerk vind je me vaak in de sportschool, waar ik werk aan mijn kracht en conditie. Verder sta ik ook vaak op het voetbal veld waar ik speel in een vriendenteam als laatste man."
+            },
+            "animals": {
+                "title": "Dieren",
+                "text": "Zelf ben ik een groot dierenfan. Ik heb mijn hele leven samen met dieren geleefd en op dit moment hebben wij 3 honden in huis."
+            }
+        }
+    },
+    "experiences": {
+        "campingcare": {
+            "title": "Software Developer bij Camping Care",
+            "text": "Ik werk nu bij Camping.care in Denekamp waar ik samen met een klein team werk aan een PMS voor campings dat wordt gebruikt over heel Europa."
+        },
+        "cube": {
+            "title": "Stage bij Cube B.V.",
+            "text": "Meegedraaid in het team en gewerkt aan verschillende projecten waaronder het ontwikkelen van een website waarmee heel eenvoudig Cookie meldingen worden gegenereerd."
+        },
+        "telecats-conceptlisous": {
+            "title": "Meeloopdagen bij Telecats B.V. en Conceptlisious",
+            "text": "Tijdens deze meeloopdagen heb ik meerdere SCRUM sessies bijgewoond en ben ik bezig geweest met het testen van virtual reality spellen."
+        }
+    },
+    "studies": {
+        "saxion": {
+            "title": "Saxion University of Applied Sciences",
+            "text": "Op dit moment volg ik de opleiding Software Development aan het Saxion in Enschede."
+        },
+        "roc": {
+            "title": "ROC van Twente",
+            "text": "Op het ROC volgde ik 4 jaar lang de opleiding Applicatie & Media ontwikkelaar en ben hier met een diploma voor geslaagd."
+        }
+    },
+    "projects": {
+        "synologyPhotosReminder": {
+            "title": "Synology Photos Reminder",
+            "text": "Dit Node.js project zoekt naar foto's die zijn opgeslagen op een Synology NAS-server. Het vindt foto's die op de huidige dag zijn gemaakt, maar een willekeurig aantal jaren geleden, en stuurt ze vervolgens naar uw e-mail."
+        },
+        "rentACar": {
+            "title": "RentACar (Oefen examen)",
+            "text": "In dit proefexamen maken wij een auto verhuur website voor meneer Jansen. Het bedrijf FastDevelopment maakt in opdracht software. Het autoverhuurbedrijf Rent-a-Car, heeft gevraagd een nieuwe webapplicatie te bouwen."
+        },
+        "calc4You": {
+            "title": "Calc4You",
+            "text": "Voor een school opdracht heb ik samen in een SCRUM team een rekenmachine applicatie gemaakt in .NET Core. Deze applicatie gebruikt ook leeftijdsverificatie voor het gebruik van de rekenmachine."
+        },
+        "gameFinder": {
+            "title": "GameFinder",
+            "text": "Tijdens mijn stage bij Cube B.V. heb ik (om het Vue.js framework te leren kennen) heb ik een opdracht gemaakt waarmee je via de IGDB api elk spel kan vinden met behulp van filters!"
+        }
+    },
+    "contact": {
+        "name": "Volledige naam",
+        "email": "E-mail",
+        "example-email": "voorbeeld@mail.com",
+        "message": "Bericht",
+        "submit": "Verstuur"
+    }
+}

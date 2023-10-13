@@ -1,13 +1,13 @@
 <template>
     <section id="contact">
-        <p class="section-title">Contact</p>
+        <p class="section-title">{{ $t("main.contact") }}</p>
 
         <form
             @submit.prevent="sendMail"
             class="max-w-lg"
         >
             <div class="form-group">
-                <label for="name">Volledige naam</label>
+                <label for="name">{{ $t("contact.name") }}</label>
                 <input
                     type="text"
                     name="name"
@@ -18,18 +18,18 @@
             </div>
 
             <div class="form-group">
-                <label for="email">E-mail</label>
+                <label for="email">{{ $t("contact.email") }}</label>
                 <input
                     type="email"
                     name="email"
                     id="email"
-                    placeholder="voorbeeld@mail.com"
+                    :placeholder="$t('contact.example-email')"
                     required
                 />
             </div>
 
             <div class="form-group">
-                <label for="message">Bericht</label>
+                <label for="message">{{ $t("contact.message") }}</label>
                 <textarea
                     name="message"
                     id="message"
@@ -42,7 +42,7 @@
                 type="submit"
                 class="py-2 px-4 border-2 border-slate-700 rounded-lg hover:border-blue-700 bg-gradient-to-r from-slate-900 to-slate-800"
             >
-                Verstuur
+                {{ $t("contact.submit") }}
             </button>
         </form>
     </section>

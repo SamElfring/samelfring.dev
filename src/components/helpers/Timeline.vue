@@ -9,8 +9,8 @@
             <time class="mb-1 text-sm leading-none text-slate-400">
                 {{ item.time }}
             </time>
-            <h3 class="text-lg font-semibold text-white">{{ item.title }}</h3>
-            <p class="mb-4 text-base text-slate-400">{{ item.text }}</p>
+            <h3 class="text-lg font-semibold text-white">{{ $t(item.title) }}</h3>
+            <p class="mb-4 text-base text-slate-400">{{ $t(item.text) }}</p>
         </li>
     </ol>
 </template>

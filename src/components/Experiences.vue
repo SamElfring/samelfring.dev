@@ -1,6 +1,6 @@
 <template>
     <section id="experiences">
-        <p class="section-title">Ervaringen</p>
+        <p class="section-title">{{ $t("main.experiences") }}</p>
 
         <Timeline :items="timeLineItems" />
     </section>
@@ -12,25 +12,18 @@ import Timeline from "./helpers/Timeline.vue";
 const timeLineItems = [
     {
         time: "2022 - nu",
-        title: "Software Developer bij Camping Care",
-        text: "Ik werk nu bij Camping.care in Denekamp waar ik samen \
-                met een klein team werk aan een PMS voor campings \
-                dat wordt gebruikt over heel Europa."
+        title: "experiences.campingcare.title",
+        text: "experiences.campingcare.text"
     },
     {
         time: "2020",
-        title: "Stage bij Cube B.V.",
-        text: "Meegedraaid in het team en gewerkt aan verschillende \
-                projecten waaronder het ontwikkelen van een website \
-                waarmee heel eenvoudig Cookie meldingen worden \
-                gegenereerd."
+        title: "experiences.cube.title",
+        text: "experiences.cube.text"
     },
     {
         time: "2018",
-        title: "Meeloopdagen bij Telecats B.V. en Conceptlisious",
-        text: "Tijdens deze meeloopdagen heb ik meerdere SCRUM sessies \
-                bijgewoond en ben ik bezig geweest met het testen van \
-                virtual reality spellen."
+        title: "experiences.telecats-conceptlisous.title",
+        text: "experiences.telecats-conceptlisous.text"
     }
 ];
 </script>

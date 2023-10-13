@@ -1,6 +1,6 @@
 <template>
     <section id="projects">
-        <div class="section-title">Projecten</div>
+        <div class="section-title">{{ $t("main.projects") }}</div>
 
         <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
             <div
@@ -15,7 +15,7 @@
                     <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-black"></div>
 
                     <div class="z-10 p-2 flex justify-between items-center w-full">
-                        <p class="font-bold text-lg">{{ item.title }}</p>
+                        <p class="font-bold text-lg">{{ $t(item.title) }}</p>
 
                         <a
                             v-for="url in item.urls"
@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="flex-1 p-2 bg-slate-800">
-                    <p class="text-slate-300">{{ item.description }}</p>
+                    <p class="text-slate-300">{{ $t(item.description) }}</p>
                 </div>
             </div>
         </div>
@@ -43,37 +43,27 @@
 <script setup>
 const projectItems = [
     {
-        title: "Synology Photos Reminder",
+        title: "projects.synologyPhotosReminder.title",
         img: "img/projects/synologyapp.png",
-        description:
-            "Dit Node.js project zoekt naar foto's die zijn opgeslagen op een Synology NAS-server. \
-            Het vindt foto's die op de huidige dag zijn gemaakt, maar een \
-            willekeurig aantal jaren geleden, en stuurt ze vervolgens naar uw e-mail.",
+        description: "projects.synologyPhotosReminder.text",
         urls: [["fa-brands fa-github", "https://github.com/SamElfring/SynologyPhotosReminder"]]
     },
     {
-        title: "RentACar (Oefen examen)",
+        title: "projects.rentACar.title",
         img: "img/projects/rentacar.png",
-        description:
-            "In dit proefexamen maken wij een auto verhuur website voor meneer Jansen. \
-            Het bedrijf FastDevelopment maakt in opdracht software. \
-            Het autoverhuurbedrijf Rent-a-Car, heeft gevraagd een nieuwe webapplicatie te bouwen.",
+        description: "projects.rentACar.text",
         urls: [["fa-brands fa-github", "https://github.com/SamElfring/RentACar"]]
     },
     {
-        title: "Calc4You",
+        title: "projects.calc4You.title",
         img: "img/projects/calc4you.png",
-        description:
-            "Voor een school opdracht heb ik samen in een SCRUM team een \
-            rekenmachine applicatie gemaakt in .NET Core. Deze applicatie gebruikt \
-            ook leeftijdsverificatie voor het gebruik van de rekenmachine.",
+        description: "projects.calc4You.text",
         urls: [["fa-brands fa-github", "https://github.com/LucasHuls/Calc4You-Project-Groep-5"]]
     },
     {
-        title: "GameFinder",
+        title: "projects.gameFinder.title",
         img: "img/projects/gamefinder.png",
-        description:
-            "Tijdens mijn stage bij Cube B.V. heb ik (om het Vue.js framework te leren kennen) heb ik een opdracht gemaakt waarmee je via de IGDB api elk spel kan vinden met behulp van filters!",
+        description: "projects.gameFinder.text",
         urls: [["fa-brands fa-github", "https://github.com/SamElfring/Stage-Opdracht-GameFinder"]]
     }
 ];

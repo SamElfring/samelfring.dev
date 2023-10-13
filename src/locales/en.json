@@ -1,0 +1,78 @@
+{
+    "main": {
+        "aboutMe": "About me",
+        "experiences": "Experiences",
+        "studies": "Studies",
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact"
+    },
+    "hero": {
+        "description": "I am Sam, a 20-year-old Software Developer with a passion for creating digital solutions. I study at Saxion in Enschede in the Software Development program. In my free time, I am dedicated to both fitness and soccer because I believe that a healthy mind and a healthy body go hand in hand with my creative work."
+    },
+    "aboutMe": {
+        "blocks": {
+            "softwareDevelopment": {
+                "title": "Software Development",
+                "text": "My days are filled with writing code and developing innovative digital solutions. During my work and studies, I engage in exciting projects in the world of software development."
+            },
+            "fitness": {
+                "title": "Fitness",
+                "text": "Outside of my programming work, you can often find me at the gym, where I work on my strength and fitness. Additionally, I'm frequently on the soccer field, where I play in a friendly team as the last man."
+            },
+            "animals": {
+                "title": "Animals",
+                "text": "I'm a big animal lover myself. I have lived with animals my whole life, and currently, we have 3 dogs in our house."
+            }
+        }
+    },
+    "experiences": {
+        "campingcare": {
+            "title": "Software Developer at Camping Care",
+            "text": "I currently work at Camping.care in Denekamp, where I work with a small team on a PMS for campgrounds used throughout Europe."
+        },
+        "cube": {
+            "title": "Internship at Cube B.V.",
+            "text": "I worked with the team on various projects, including the development of a website for easily generating cookie notifications."
+        },
+        "telecats-conceptlisous": {
+            "title": "Shadowing days at Telecats B.V. and Conceptlisious",
+            "text": "During these shadowing days, I attended multiple SCRUM sessions and tested virtual reality games."
+        }
+    },
+    "studies": {
+        "saxion": {
+            "title": "Saxion University of Applied Sciences",
+            "text": "Currently, I am pursuing the Software Development program at Saxion in Enschede."
+        },
+        "roc": {
+            "title": "ROC of Twente",
+            "text": "At ROC, I completed a 4-year program in Application & Media Development and obtained a diploma."
+        }
+    },
+    "projects": {
+        "synologyPhotosReminder": {
+            "title": "Synology Photos Reminder",
+            "text": "This Node.js project searches for photos stored on a Synology NAS server. It finds photos taken on the current day, but a random number of years ago, and then sends them to your email."
+        },
+        "rentACar": {
+            "title": "RentACar (Practice Exam)",
+            "text": "In this practice exam, we create a car rental website for Mr. Jansen. The company FastDevelopment develops software on commission. The car rental company Rent-a-Car has requested the development of a new web application."
+        },
+        "calc4You": {
+            "title": "Calc4You",
+            "text": "For a school assignment, I collaborated in a SCRUM team to create a calculator application in .NET Core. This application also includes age verification for calculator usage."
+        },
+        "gameFinder": {
+            "title": "GameFinder",
+            "text": "During my internship at Cube B.V., I created an assignment (to learn the Vue.js framework) that allows you to find any game using filters through the IGDB API."
+        }
+    },
+    "contact": {
+        "name": "Full name",
+        "email": "Email",
+        "example-email": "example@mail.com",
+        "message": "Message",
+        "submit": "Send"
+    }
+}

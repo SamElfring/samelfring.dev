@@ -1,6 +1,6 @@
 <template>
     <section id="skills">
-        <div class="section-title">Vaardigheden</div>
+        <div class="section-title">{{ $t("main.skills") }}</div>
 
         <div class="flex flex-wrap gap-3 lg:gap-4">
             <div

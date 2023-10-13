@@ -1,0 +1,78 @@
+{
+    "main": {
+        "aboutMe": "Über mich",
+        "experiences": "Erfahrungen",
+        "studies": "Studium",
+        "projects": "Projekte",
+        "skills": "Fähigkeiten",
+        "contact": "Kontakt"
+    },
+    "hero": {
+        "description": "Ich bin Sam, ein 20-jähriger Softwareentwickler mit Leidenschaft für die Erstellung digitaler Lösungen. Ich studiere an der Saxion in Enschede im Studiengang Softwareentwicklung. In meiner Freizeit widme ich mich sowohl dem Fitnesstraining als auch dem Fußball, denn ich glaube, dass ein gesunder Geist und ein gesunder Körper Hand in Hand mit meiner kreativen Arbeit gehen."
+    },
+    "aboutMe": {
+        "blocks": {
+            "softwareDevelopment": {
+                "title": "Softwareentwicklung",
+                "text": "Meine Tage sind mit dem Schreiben von Code und der Entwicklung innovativer digitaler Lösungen gefüllt. Während meiner Arbeit und meines Studiums bin ich an aufregenden Projekten in der Welt der Softwareentwicklung beteiligt."
+            },
+            "fitness": {
+                "title": "Fitness",
+                "text": "Abseits meiner Programmierarbeit findet man mich oft im Fitnessstudio, wo ich an meiner Kraft und Fitness arbeite. Darüber hinaus bin ich häufig auf dem Fußballplatz, wo ich in einer Freizeitmannschaft als Abwehrspieler spiele."
+            },
+            "animals": {
+                "title": "Tiere",
+                "text": "Ich bin selbst ein großer Tierliebhaber. Ich habe mein ganzes Leben mit Tieren zusammengelebt, und derzeit haben wir 3 Hunde in unserem Haus."
+            }
+        }
+    },
+    "experiences": {
+        "campingcare": {
+            "title": "Softwareentwickler bei Camping Care",
+            "text": "Ich arbeite derzeit bei Camping.care in Denekamp, wo ich mit einem kleinen Team an einem PMS für Campingplätze in ganz Europa arbeite."
+        },
+        "cube": {
+            "title": "Praktikum bei Cube B.V.",
+            "text": "Ich habe mit dem Team an verschiedenen Projekten gearbeitet, darunter die Entwicklung einer Website zur einfachen Generierung von Cookie-Benachrichtigungen."
+        },
+        "telecats-conceptlisous": {
+            "title": "Schnuppertage bei Telecats B.V. und Conceptlisious",
+            "text": "Während dieser Schnuppertage habe ich an mehreren SCRUM-Sitzungen teilgenommen und virtuelle Realitätsspiele getestet."
+        }
+    },
+    "studies": {
+        "saxion": {
+            "title": "Saxion University of Applied Sciences",
+            "text": "Derzeit studiere ich im Studiengang Softwareentwicklung an der Saxion in Enschede."
+        },
+        "roc": {
+            "title": "ROC of Twente",
+            "text": "Am ROC habe ich ein 4-jähriges Programm in Anwendungs- und Mediengestaltung absolviert und einen Abschluss erworben."
+        }
+    },
+    "projects": {
+        "synologyPhotosReminder": {
+            "title": "Synology Fotos Erinnerung",
+            "text": "Dieses Node.js-Projekt sucht nach Fotos, die auf einem Synology NAS-Server gespeichert sind. Es findet Fotos, die am aktuellen Tag, aber vor einer zufälligen Anzahl von Jahren aufgenommen wurden, und sendet sie dann an Ihre E-Mail-Adresse."
+        },
+        "rentACar": {
+            "title": "RentACar (Prüfungsaufgabe)",
+            "text": "In dieser Prüfungsaufgabe erstellen wir eine Webseite für die Autovermietung von Herrn Jansen. Das Unternehmen FastDevelopment entwickelt im Auftrag Software. Die Autovermietung Rent-a-Car hat die Entwicklung einer neuen Webanwendung angefordert."
+        },
+        "calc4You": {
+            "title": "Calc4You",
+            "text": "Für eine schulische Aufgabe habe ich in einem SCRUM-Team an der Entwicklung einer Taschenrechneranwendung in .NET Core mit Altersüberprüfung für die Nutzung gearbeitet."
+        },
+        "gameFinder": {
+            "title": "GameFinder",
+            "text": "Während meines Praktikums bei Cube B.V. habe ich eine Aufgabe erstellt (um das Vue.js-Framework zu erlernen), mit der Sie mithilfe von Filtern über die IGDB-API jedes beliebige Spiel finden können."
+        }
+    },
+    "contact": {
+        "name": "Vollständiger Name",
+        "email": "E-Mail",
+        "example-email": "beispiel@mail.com",
+        "message": "Nachricht",
+        "submit": "Senden"
+    }
+}

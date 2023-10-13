@@ -14,7 +14,7 @@
                     :href="link.link"
                     class="text-slate-400 hover:underline hover:text-white"
                 >
-                    {{ link.name }}
+                    {{ $t(link.name) }}
                 </a>
             </li>
         </ul>
@@ -25,22 +25,21 @@
 import { ref, onMounted } from "vue";
 
 const navLinks = [
-    { name: "Over mij", link: "#about-me" },
-    { name: "Ervaringen", link: "#experiences" },
-    { name: "Opleidingen", link: "#study" },
-    { name: "Projecten", link: "#projects" },
-    { name: "Vaardigheden", link: "#skills" },
-    { name: "Contact", link: "#contact" }
+    { name: "main.aboutMe", link: "#about-me" },
+    { name: "main.experiences", link: "#experiences" },
+    { name: "main.studies", link: "#study" },
+    { name: "main.projects", link: "#projects" },
+    { name: "main.skills", link: "#skills" },
+    { name: "main.contact", link: "#contact" }
 ];
 
 const header = ref(null);
 
 onMounted(() => {
     window.addEventListener("scroll", () => {
-
         if (window.innerWidth > 768 /* Medium screen breakpoint */) {
             const headerClasses = ["bg-slate-800", "py-2"];
-    
+
             if (window.scrollY > 0) header.value.classList.add(...headerClasses);
             else header.value.classList.remove(...headerClasses);
         }

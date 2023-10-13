@@ -6,9 +6,9 @@
         />
 
         <div>
-            <h3 class="text-xl font-semibold">{{ title }}</h3>
+            <h3 class="text-xl font-semibold">{{ $t(title) }}</h3>
 
-            <p class="text-slate-400">{{ text }}</p>
+            <p class="text-slate-400">{{ $t(text) }}</p>
         </div>
     </div>
 </template>
