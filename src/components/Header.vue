@@ -41,8 +41,7 @@ const navLinks = [
     { name: "main.experiences", link: "#experiences" },
     { name: "main.studies", link: "#study" },
     { name: "main.projects", link: "#projects" },
-    { name: "main.skills", link: "#skills" },
-    { name: "main.contact", link: "#contact" }
+    { name: "main.skills", link: "#skills" }
 ];
 
 const header = ref(null);
