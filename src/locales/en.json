@@ -67,12 +67,5 @@
             "title": "GameFinder",
             "text": "During my internship at Cube B.V., I created an assignment (to learn the Vue.js framework) that allows you to find any game using filters through the IGDB API."
         }
-    },
-    "contact": {
-        "name": "Full name",
-        "email": "Email",
-        "example-email": "example@mail.com",
-        "message": "Message",
-        "submit": "Send"
     }
 }

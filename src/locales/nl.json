@@ -67,12 +67,5 @@
             "title": "GameFinder",
             "text": "Tijdens mijn stage bij Cube B.V. heb ik (om het Vue.js framework te leren kennen) heb ik een opdracht gemaakt waarmee je via de IGDB api elk spel kan vinden met behulp van filters!"
         }
-    },
-    "contact": {
-        "name": "Volledige naam",
-        "email": "E-mail",
-        "example-email": "voorbeeld@mail.com",
-        "message": "Bericht",
-        "submit": "Verstuur"
     }
 }

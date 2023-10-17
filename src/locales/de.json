@@ -67,12 +67,5 @@
             "title": "GameFinder",
             "text": "Während meines Praktikums bei Cube B.V. habe ich eine Aufgabe erstellt (um das Vue.js-Framework zu erlernen), mit der Sie mithilfe von Filtern über die IGDB-API jedes beliebige Spiel finden können."
         }
-    },
-    "contact": {
-        "name": "Vollständiger Name",
-        "email": "E-Mail",
-        "example-email": "beispiel@mail.com",
-        "message": "Nachricht",
-        "submit": "Senden"
     }
 }
