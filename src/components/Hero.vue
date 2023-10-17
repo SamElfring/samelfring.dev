@@ -1,7 +1,7 @@
 <template>
     <section class="md:flex md:items-center md:justify-center md:gap-20 md:h-screen">
         <img
-            src="/img/sam.png"
+            src="/img/sam.webp"
             alt="Person"
             class="aspect-square object-cover rounded-full border-8 border-slate-500 w-1/2 mx-auto md:mx-0 md:w-80"
         />
