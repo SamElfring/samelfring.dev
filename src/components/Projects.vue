@@ -23,6 +23,7 @@
                             :href="url[1]"
                             target="_blank"
                             class="flex gap-2"
+                            :aria-label="url[2]"
                         >
                             <font-awesome-icon
                                 :icon="url[0]"
@@ -46,25 +47,33 @@ const projectItems = [
         title: "projects.synologyPhotosReminder.title",
         img: "img/projects/synologyapp.png",
         description: "projects.synologyPhotosReminder.text",
-        urls: [["fa-brands fa-github", "https://github.com/SamElfring/SynologyPhotosReminder"]]
+        urls: [
+            ["fa-brands fa-github", "https://github.com/SamElfring/SynologyPhotosReminder", "Navigate to SynologyPhotosReminder GitHub page"]
+        ]
     },
     {
         title: "projects.rentACar.title",
         img: "img/projects/rentacar.png",
         description: "projects.rentACar.text",
-        urls: [["fa-brands fa-github", "https://github.com/SamElfring/RentACar"]]
+        urls: [
+            ["fa-brands fa-github", "https://github.com/SamElfring/RentACar", "Navigate to RentACar GitHub page"]
+        ]
     },
     {
         title: "projects.calc4You.title",
         img: "img/projects/calc4you.png",
         description: "projects.calc4You.text",
-        urls: [["fa-brands fa-github", "https://github.com/LucasHuls/Calc4You-Project-Groep-5"]]
+        urls: [
+            ["fa-brands fa-github", "https://github.com/LucasHuls/Calc4You-Project-Groep-5", "Navigate to Calc4You GitHub page"]
+        ]
     },
     {
         title: "projects.gameFinder.title",
         img: "img/projects/gamefinder.png",
         description: "projects.gameFinder.text",
-        urls: [["fa-brands fa-github", "https://github.com/SamElfring/Stage-Opdracht-GameFinder"]]
+        urls: [
+            ["fa-brands fa-github", "https://github.com/SamElfring/Stage-Opdracht-GameFinder", "Navigate to GameFinder GitHub page"]
+        ]
     }
 ];
 </script>

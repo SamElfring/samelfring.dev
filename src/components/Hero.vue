@@ -7,7 +7,7 @@
         />
 
         <div class="mt-4 md:max-w-xl md:m-0">
-            <p class="text-sm md:text-lg text-slate-500 font-thin">Software Developer</p>
+            <p class="text-sm md:text-lg text-slate-400 font-thin">Software Developer</p>
             <h1 class="text-3xl md:text-6xl font-bold">Sam Elfring</h1>
             <p class="text-slate-400 mt-2 md:text-xl">
                 {{ $t("hero.description") }}

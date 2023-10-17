@@ -8,6 +8,7 @@
             <a
                 :href="item[0]"
                 class="font-semibold w-full text-center py-2"
+                :aria-label="item[2]"
             >
                 {{ $t(item[1]) }}
             </a>
@@ -17,9 +18,9 @@
 
 <script setup>
 const navItems = [
-    ["#about-me", "main.aboutMe"],
-    ["#study", "main.studies"],
-    ["#experiences", "main.experiences"],
-    ["#projects", "main.projects"]
+    ["#about-me", "main.aboutMe", "Navigate to about me section"],
+    ["#study", "main.studies", "Navigate to studies section"],
+    ["#experiences", "main.experiences", "Navigate to experiences section"],
+    ["#projects", "main.projects", "Navigate to projects section"]
 ];
 </script>
