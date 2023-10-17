@@ -32,19 +32,19 @@ const skills = [
     { icon: "fa-brands fa-laravel", name: "Laravel" },
     { icon: "fa-brands fa-python", name: "Python" },
     { icon: "fa-brands fa-js", name: "JavaScript" },
-    { img: "img/custom-icons/typescript.png", name: "TypeScript" },
+    { img: "img/custom-icons/typescript.ico", name: "TypeScript" },
     { icon: "fa-brands fa-php", name: "PHP" },
     { icon: "fa-brands fa-html5", name: "HTML" },
     { icon: "fa-brands fa-css3-alt", name: "CSS" },
     { icon: "fa-brands fa-sass", name: "Sass" },
-    { img: "img/custom-icons/tailwindcss.png", name: "Tailwind" },
+    { img: "img/custom-icons/tailwindcss.ico", name: "Tailwind" },
     { icon: "fa-brands fa-node", name: "Node.js" },
     { icon: "fa-brands fa-yarn", name: "Yarn" },
     { icon: "fa-brands fa-git-alt", name: "Git" },
     { icon: "fa-brands fa-java", name: "Java" },
     { icon: "fa-brands fa-windows", name: "Windows" },
     { icon: "fa-brands fa-linux", name: "Arch Linux" },
-    { img: "img/custom-icons/csharp.png", name: "C#" },
-    { img: "img/custom-icons/nuxtjs.png", name: "Nuxt.js" }
+    { img: "img/custom-icons/csharp.ico", name: "C#" },
+    { img: "img/custom-icons/nuxtjs.ico", name: "Nuxt.js" }
 ];
 </script>
