@@ -13,7 +13,7 @@ export default defineConfig({
             "@": fileURLToPath(new URL("./src", import.meta.url))
         }
     },
-    base: "/samelfring.nl",
+    base: "./",
     configureWebpack: {
         plugins: [
             new GoogleFontsPlugin({
