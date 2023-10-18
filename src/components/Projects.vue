@@ -45,34 +45,44 @@
 const projectItems = [
     {
         title: "projects.synologyPhotosReminder.title",
-        img: "img/projects/synologyapp.png",
+        img: "img/projects/synologyapp.webp",
         description: "projects.synologyPhotosReminder.text",
         urls: [
-            ["fa-brands fa-github", "https://github.com/SamElfring/SynologyPhotosReminder", "Navigate to SynologyPhotosReminder GitHub page"]
+            [
+                "fa-brands fa-github",
+                "https://github.com/SamElfring/SynologyPhotosReminder",
+                "Navigate to SynologyPhotosReminder GitHub page"
+            ]
         ]
     },
     {
         title: "projects.rentACar.title",
-        img: "img/projects/rentacar.png",
+        img: "img/projects/rentacar.webp",
         description: "projects.rentACar.text",
-        urls: [
-            ["fa-brands fa-github", "https://github.com/SamElfring/RentACar", "Navigate to RentACar GitHub page"]
-        ]
+        urls: [["fa-brands fa-github", "https://github.com/SamElfring/RentACar", "Navigate to RentACar GitHub page"]]
     },
     {
         title: "projects.calc4You.title",
-        img: "img/projects/calc4you.png",
+        img: "img/projects/calc4you.webp",
         description: "projects.calc4You.text",
         urls: [
-            ["fa-brands fa-github", "https://github.com/LucasHuls/Calc4You-Project-Groep-5", "Navigate to Calc4You GitHub page"]
+            [
+                "fa-brands fa-github",
+                "https://github.com/LucasHuls/Calc4You-Project-Groep-5",
+                "Navigate to Calc4You GitHub page"
+            ]
         ]
     },
     {
         title: "projects.gameFinder.title",
-        img: "img/projects/gamefinder.png",
+        img: "img/projects/gamefinder.webp",
         description: "projects.gameFinder.text",
         urls: [
-            ["fa-brands fa-github", "https://github.com/SamElfring/Stage-Opdracht-GameFinder", "Navigate to GameFinder GitHub page"]
+            [
+                "fa-brands fa-github",
+                "https://github.com/SamElfring/Stage-Opdracht-GameFinder",
+                "Navigate to GameFinder GitHub page"
+            ]
         ]
     }
 ];

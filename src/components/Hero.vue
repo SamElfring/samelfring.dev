@@ -4,6 +4,7 @@
             src="/img/sam.webp"
             alt="Person"
             class="aspect-square object-cover rounded-full border-8 border-slate-500 w-1/2 mx-auto md:mx-0 md:w-80"
+            ref="heroImg"
         />
 
         <div class="mt-4 md:max-w-xl md:m-0">
@@ -34,6 +35,8 @@
 </template>
 
 <script setup>
+import { onMounted, ref } from 'vue';
+
 const socialMediaLinks = [
     {
         icon: "fa-brands fa-facebook-f",
@@ -51,4 +54,15 @@ const socialMediaLinks = [
         label: "Navigate to LinkedIn page"
     }
 ];
+
+const heroImg = ref(null);
+
+onMounted(() => {
+    window.addEventListener("resize", () => {
+        if (window.innerWidth < 500)
+            heroImg.value.src = "/img/sam-mobile.webp";
+        else
+            heroImg.value.src = "/img/sam.webp";
+    });
+});
 </script>
