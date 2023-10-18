@@ -8,6 +8,7 @@
             href="/files/cv_Sam_Elfring.pdf"
             download
             class="text-slate-300 hover:underline"
+            aria-label="Download CV"
         >
             Download CV
         </a>

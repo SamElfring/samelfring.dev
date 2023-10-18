@@ -13,6 +13,7 @@
                 name="language"
                 class="rounded p-2 bg-slate-700 border-slate-600 placeholder-slate-400 text-white focus:ring-blue-500 focus:border-blue-500"
                 @change="$i18n.locale = $event.target.value"
+                aria-label="Language"
             >
                 <option
                     value="nl"
@@ -39,7 +40,7 @@
                     <a
                         :href="link.link"
                         class="text-slate-400 hover:underline hover:text-white"
-                        :aria-label="link.label"
+                        :aria-label="$t(link.name)"
                     >
                         {{ $t(link.name) }}
                     </a>
@@ -53,11 +54,11 @@
 import { ref, onMounted } from "vue";
 
 const navLinks = [
-    { name: "main.aboutMe", link: "#about-me", label: "Navigate to about me section" },
-    { name: "main.experiences", link: "#experiences", label: "Navigate to experiences section" },
-    { name: "main.studies", link: "#study", label: "Navigate to studies section" },
-    { name: "main.projects", link: "#projects", label: "Navigate to projects section" },
-    { name: "main.skills", link: "#skills", label: "Navigate to skills section" }
+    { name: "main.aboutMe", link: "#about-me" },
+    { name: "main.experiences", link: "#experiences" },
+    { name: "main.studies", link: "#study" },
+    { name: "main.projects", link: "#projects" },
+    { name: "main.skills", link: "#skills" }
 ];
 
 const header = ref(null);

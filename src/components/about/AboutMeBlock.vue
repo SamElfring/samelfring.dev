@@ -6,7 +6,7 @@
         />
 
         <div>
-            <h3 class="text-xl font-semibold">{{ $t(title) }}</h3>
+            <p class="text-xl font-semibold">{{ $t(title) }}</p>
 
             <p class="text-slate-400">{{ $t(text) }}</p>
         </div>
