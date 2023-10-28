@@ -3,6 +3,9 @@ import "./assets/main.css";
 import { createApp } from "vue";
 import App from "./App.vue";
 
+// Routing
+import router from "./router";
+
 // i18n
 import { createI18n } from "vue-i18n";
 
@@ -27,6 +30,7 @@ library.add(fas, fab);
 
 const app = createApp(App);
 
+app.use(router);
 app.use(i18n);
 app.component("font-awesome-icon", FontAwesomeIcon);
 
