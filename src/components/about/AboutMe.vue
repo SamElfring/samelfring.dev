@@ -1,6 +1,6 @@
 <template>
     <section id="about-me">
-        <p class="section-title">{{ $t("main.aboutMe") }}</p>
+        <h2 class="section-title">{{ $t("main.aboutMe") }}</h2>
 
         <div class="grid grid-cols-1 mt-4 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <AboutMeBlock

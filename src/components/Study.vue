@@ -1,6 +1,6 @@
 <template>
     <section id="study">
-        <p class="section-title">Opleidingen</p>
+        <h2 class="section-title">Opleidingen</h2>
 
         <Timeline :items="timeLineItems" />
     </section>

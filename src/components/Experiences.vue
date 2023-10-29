@@ -1,6 +1,6 @@
 <template>
     <section id="experiences">
-        <p class="section-title">{{ $t("main.experiences") }}</p>
+        <h2 class="section-title">{{ $t("main.experiences") }}</h2>
 
         <Timeline :items="timeLineItems" />
     </section>

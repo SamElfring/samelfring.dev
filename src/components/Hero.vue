@@ -10,9 +10,9 @@
         <div class="mt-4 md:max-w-xl md:m-0">
             <p class="text-sm md:text-lg text-slate-400 font-thin">Software Developer</p>
             <h1 class="text-3xl md:text-6xl font-bold">Sam Elfring</h1>
-            <p class="text-slate-400 mt-2 md:text-xl">
+            <h2 class="text-slate-400 mt-2 md:text-xl">
                 {{ $t("hero.description") }}
-            </p>
+            </h2>
 
             <div class="mt-4 text-slate-300 flex items-center">
                 <div class="flex bg-slate-800 rounded-lg overflow-hidden">

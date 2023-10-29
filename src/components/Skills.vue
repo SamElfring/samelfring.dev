@@ -1,6 +1,6 @@
 <template>
     <section id="skills">
-        <div class="section-title">{{ $t("main.skills") }}</div>
+        <h2 class="section-title">{{ $t("main.skills") }}</h2>
 
         <div class="flex flex-wrap gap-3 lg:gap-4">
             <div
