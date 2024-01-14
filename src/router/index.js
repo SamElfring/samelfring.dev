@@ -4,7 +4,7 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-            path: '/:language?',
+            path: "/:language?",
             component: () => import("../views/Home.vue"),
             props: true
         }

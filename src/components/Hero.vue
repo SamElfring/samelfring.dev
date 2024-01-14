@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue';
+import { onMounted, ref } from "vue";
 
 const socialMediaLinks = [
     {
@@ -59,10 +59,8 @@ const heroImg = ref(null);
 
 onMounted(() => {
     window.addEventListener("resize", () => {
-        if (window.innerWidth < 500)
-            heroImg.value.src = "/img/sam-mobile.webp";
-        else
-            heroImg.value.src = "/img/sam.webp";
+        if (window.innerWidth < 500) heroImg.value.src = "/img/sam-mobile.webp";
+        else heroImg.value.src = "/img/sam.webp";
     });
 });
 </script>
