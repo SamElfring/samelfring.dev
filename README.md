@@ -1,75 +1,19 @@
-# Nuxt 3 Minimal Starter
+# samelfring.nl
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is my personal portfolio website built using Vue.js. It showcases my skills, projects, and provides information about me. You can view the live website here: [samelfring.nl](https://samelfring.nl).
+## Table of Contents
 
-## Setup
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 
-Make sure to install the dependencies:
+## Features
 
-```bash
-# npm
-npm install
+- **Portfolio Showcase:** This website displays my skills, projects and information about me.
+- **Responsive Design:** The website is fully responsive.
+- **Multi Language:** The website is available in multiple languages.
 
-# pnpm
-pnpm install
+## Technologies Used
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Nuxt.js: The framework used to build the website.
+- Tailwind CSS: For styling the website.
+- i18n: For multiple languages.
