@@ -7,7 +7,7 @@
             alt="404"
         />
 
-        <h1 class="text-5xl text-slate-200">{{ $t("main.not_found").toUpperCase() }}</h1>
+        <h1 class="text-5xl text-slate-200 text-center">{{ $t("main.not_found").toUpperCase() }}</h1>
 
         <NuxtLink
             to="/"
