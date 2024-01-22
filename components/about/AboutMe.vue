@@ -21,7 +21,3 @@
         </div>
     </section>
 </template>
-
-<script setup>
-import AboutMeBlock from "./AboutMeBlock.vue";
-</script>

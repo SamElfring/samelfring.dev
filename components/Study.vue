@@ -2,13 +2,11 @@
     <section id="study">
         <h2 class="section-title">Opleidingen</h2>
 
-        <Timeline :items="timeLineItems" />
+        <HelpersTimeline :items="timeLineItems" />
     </section>
 </template>
 
 <script setup>
-import Timeline from "./helpers/Timeline.vue";
-
 const timeLineItems = [
     {
         time: "2023 - nu",
