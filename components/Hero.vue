@@ -35,8 +35,6 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from "vue";
-
 const socialMediaLinks = [
     {
         icon: "fa-brands fa-facebook-f",

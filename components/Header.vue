@@ -51,8 +51,6 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
-
 const navLinks = [
     { name: "main.aboutMe", link: "#about-me" },
     { name: "main.experiences", link: "#experiences" },
