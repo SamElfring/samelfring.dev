@@ -1,6 +1,6 @@
-# samelfring.nl
+# samelfring.dev
 
-This is my personal portfolio website built using Vue.js. It showcases my skills, projects, and provides information about me. You can view the live website here: [samelfring.nl](https://samelfring.nl).
+This is my personal portfolio website built using Nuxt.js. It showcases my skills, projects, and provides information about me. You can view the live website here: [samelfring.dev](https://samelfring.dev).
 ## Table of Contents
 
 - [Features](#features)
