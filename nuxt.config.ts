@@ -12,5 +12,13 @@ export default defineNuxtConfig({
             "@fortawesome/free-brands-svg-icons",
             "@fortawesome/vue-fontawesome"
         ]
+    },
+    app: {
+        head: {
+            script: [
+                { src: "https://www.googletagmanager.com/gtag/js?id=G-D32TP1BEDD", async: true },
+                { src: "js/analytics.js" }
+            ]
+        }
     }
 });
