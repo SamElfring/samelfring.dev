@@ -5,7 +5,7 @@
         <div class="flex flex-wrap gap-3 lg:gap-4">
             <div
                 v-for="skill in skills"
-                class="p-2 rounded-md border-2 border-slate-400 flex flex-col justify-center items-center w-[6.5rem] hover:scale-[1.05] transition-transform"
+                class="p-2 rounded-md border-2 border-slate-400 bg-slate-900 flex flex-col justify-center items-center w-[6.5rem] hover:scale-[1.05] transition-transform"
             >
                 <font-awesome-icon
                     v-if="skill.icon"
