@@ -1,7 +1,7 @@
 <template>
     <Header />
 
-    <div class="p-4">
+    <div class="p-4 px-8">
         <Hero class="mt-8" />
 
         <NavigationButtons class="mt-8" />
