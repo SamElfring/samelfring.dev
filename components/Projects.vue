@@ -44,6 +44,18 @@
 <script setup>
 const projectItems = [
     {
+        title: "projects.workoutTracker.title",
+        img: "img/projects/workouttracker.webp",
+        description: "projects.workoutTracker.text",
+        urls: [
+            [
+                "fa-up-right-from-square",
+                "https://gym.samelfring.dev",
+                "Navigate to the Workout Tracker website"
+            ]
+        ]
+    },
+    {
         title: "projects.synologyPhotosReminder.title",
         img: "img/projects/synologyapp.webp",
         description: "projects.synologyPhotosReminder.text",

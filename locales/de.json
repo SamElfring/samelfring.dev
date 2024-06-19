@@ -53,6 +53,10 @@
         }
     },
     "projects": {
+        "workoutTracker": {
+            "title": "Workout Tracker",
+            "text": "Kürzlich habe ich an einer PWA gearbeitet, die deine Workouts verfolgen kann. Ich fand die vorhandenen Apps, die dies tun, zu teuer für das, was sie bieten. Also habe ich meine eigene mit Vue.js und Firebase gemacht. Sie ist jedoch noch in Arbeit."
+        },
         "synologyPhotosReminder": {
             "title": "Synology Fotos Erinnerung",
             "text": "Dieses Node.js-Projekt sucht nach Fotos, die auf einem Synology NAS-Server gespeichert sind. Es findet Fotos, die am aktuellen Tag, aber vor einer zufälligen Anzahl von Jahren aufgenommen wurden, und sendet sie dann an Ihre E-Mail-Adresse."
