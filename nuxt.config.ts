@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     devtools: { enabled: true },
-    modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n"],
+    modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n", "@hypernym/nuxt-anime"],
     css: ["./assets/css/main.css", "@fortawesome/fontawesome-svg-core/styles.css"],
     i18n: {
         vueI18n: "./i18n.config.ts"
@@ -29,5 +29,6 @@ export default defineNuxtConfig({
                 { src: "js/analytics.js" }
             ]
         }
-    }
+    },
+    compatibilityDate: "2024-09-24"
 });
