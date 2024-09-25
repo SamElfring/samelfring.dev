@@ -1,5 +1,8 @@
 <template>
-    <section id="study">
+    <section
+        id="study"
+        ref="study"
+    >
         <h2 class="section-title">Opleidingen</h2>
 
         <HelpersTimeline :items="timeLineItems" />
@@ -7,6 +10,24 @@
 </template>
 
 <script setup>
+import { useIntersectionAnimation } from "@/composables/useIntersectionAnimation";
+
+const study = ref(null);
+
+onMounted(() => {
+    if ("IntersectionObserver" in window) {
+        const animationOffset = study.value.offsetWidth;
+
+        useIntersectionAnimation(study.value, {
+            translateX: [animationOffset, 0],
+            duration: 1000,
+            easing: "easeOutQuad"
+        }).start();
+
+        study.value.style.transform = `translateX(${animationOffset}px)`;
+    }
+});
+
 const timeLineItems = [
     {
         time: "2023 - nu",

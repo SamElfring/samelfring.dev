@@ -7,10 +7,7 @@
             ref="heroImg"
         />
 
-        <div
-            class="mt-4 md:max-w-xl md:m-0"
-            ref="heroText"
-        >
+        <div class="mt-4 md:max-w-xl md:m-0">
             <p class="text-sm md:text-lg text-slate-400 font-thin">Software Developer</p>
             <h1 class="text-3xl md:text-6xl font-bold">Sam Elfring</h1>
             <h2 class="text-slate-400 mt-2 md:text-xl">
@@ -38,8 +35,6 @@
 </template>
 
 <script setup>
-const { $anime } = useNuxtApp();
-
 const socialMediaLinks = [
     {
         icon: "fa-brands fa-facebook-f",
@@ -59,18 +54,11 @@ const socialMediaLinks = [
 ];
 
 const heroImg = ref(null);
-const heroText = ref(null);
 
 onMounted(() => {
     window.addEventListener("resize", () => {
         if (window.innerWidth < 500) heroImg.value.src = "/img/sam-mobile.webp";
         else heroImg.value.src = "/img/sam.webp";
-    });
-
-    $anime({
-        targets: [heroImg.value, heroText.value],
-        translateY: [-500, 0],
-        duration: 2000
     });
 });
 </script>

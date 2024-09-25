@@ -1,5 +1,8 @@
 <template>
-    <div class="flex gap-6">
+    <div
+        class="flex gap-6"
+        ref="root"
+    >
         <font-awesome-icon
             :icon="icon"
             class="text-4xl text-blue-500 w-10"
@@ -14,6 +17,10 @@
 </template>
 
 <script setup>
+const root = ref(null);
+
+defineExpose({ root });
+
 defineProps({
     icon: {
         type: String,
