@@ -1,5 +1,8 @@
 <template>
-    <section id="projects">
+    <section
+        id="projects"
+        ref="projects"
+    >
         <h2 class="section-title">{{ $t("main.projects") }}</h2>
 
         <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
@@ -42,18 +45,31 @@
 </template>
 
 <script setup>
+import { useIntersectionAnimation } from "@/composables/useIntersectionAnimation.js";
+
+const projects = ref(null);
+
+onMounted(() => {
+    if ("IntersectionObserver" in window) {
+        projects.value.style.opacity = 0;
+
+        const animationOffset = projects.value.offsetWidth;
+
+        useIntersectionAnimation(projects.value, {
+            translateY: [animationOffset, 0],
+            opacity: 1,
+            duration: 1000,
+            easing: "easeOutQuad"
+        }).start();
+    }
+});
+
 const projectItems = [
     {
         title: "projects.workoutTracker.title",
         img: "img/projects/workouttracker.webp",
         description: "projects.workoutTracker.text",
-        urls: [
-            [
-                "fa-up-right-from-square",
-                "https://gym.samelfring.dev",
-                "Navigate to the Workout Tracker website"
-            ]
-        ]
+        urls: [["fa-up-right-from-square", "https://gym.samelfring.dev", "Navigate to the Workout Tracker website"]]
     },
     {
         title: "projects.synologyPhotosReminder.title",

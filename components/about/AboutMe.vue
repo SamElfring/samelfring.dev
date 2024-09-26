@@ -24,7 +24,8 @@ const blockRefs = ref([]);
 
 onMounted(() => {
     if ("IntersectionObserver" in window) {
-        blockRefs.value.forEach((block, index) => {
+        blockRefs.value.forEach((block) => {
+            block.root.style.opacity = 0;
             block.root.style.transform = "translateY(500px)";
         });
 
@@ -32,10 +33,11 @@ onMounted(() => {
             blockRefs.value[0].root,
             {
                 translateY: [500, 0],
+                opacity: 1,
                 easing: "easeOutQuad",
                 delay: $anime.stagger(300)
             },
-            { rootMargin: "0px 0px 300px 0px" },
+            { rootMargin: "0px 0px 400px 0px" },
             blockRefs.value.map((block) => block.root).slice(1)
         ).start();
     }

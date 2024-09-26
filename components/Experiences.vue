@@ -16,10 +16,13 @@ const experiences = ref(null);
 
 onMounted(() => {
     if ("IntersectionObserver" in window) {
+        experiences.value.style.opacity = 0;
+
         const animationOffset = -experiences.value.offsetWidth;
 
         useIntersectionAnimation(experiences.value, {
             translateX: [animationOffset, 0],
+            opacity: 1,
             duration: 1000,
             easing: "easeOutQuad"
         }).start();
