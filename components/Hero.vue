@@ -54,11 +54,4 @@ const socialMediaLinks = [
 ];
 
 const heroImg = ref(null);
-
-onMounted(() => {
-    window.addEventListener("resize", () => {
-        if (window.innerWidth < 500) heroImg.value.src = "/img/sam-mobile.webp";
-        else heroImg.value.src = "/img/sam.webp";
-    });
-});
 </script>
