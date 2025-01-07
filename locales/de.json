@@ -10,7 +10,7 @@
         "go_home": "Zurück zur Startseite"
     },
     "hero": {
-        "description": "Ich bin Sam, ein 20-jähriger Softwareentwickler mit Leidenschaft für die Erstellung digitaler Lösungen. Ich studiere an der Saxion in Enschede im Studiengang Softwareentwicklung. In meiner Freizeit widme ich mich sowohl dem Fitnesstraining als auch dem Fußball, denn ich glaube, dass ein gesunder Geist und ein gesunder Körper Hand in Hand mit meiner kreativen Arbeit gehen."
+        "description": "Ich bin Sam, ein {age}-jähriger Softwareentwickler mit Leidenschaft für die Erstellung digitaler Lösungen. Ich studiere an der Saxion in Enschede im Studiengang Softwareentwicklung. In meiner Freizeit widme ich mich sowohl dem Fitnesstraining als auch dem Fußball, denn ich glaube, dass ein gesunder Geist und ein gesunder Körper Hand in Hand mit meiner kreativen Arbeit gehen."
     },
     "aboutMe": {
         "blocks": {
@@ -24,7 +24,7 @@
             },
             "animals": {
                 "title": "Tiere",
-                "text": "Ich bin selbst ein großer Tierliebhaber. Ich habe mein ganzes Leben mit Tieren zusammengelebt, und derzeit haben wir 3 Hunde in unserem Haus."
+                "text": "Ich bin selbst ein großer Tierliebhaber. Ich habe mein ganzes Leben mit Tieren zusammengelebt, und derzeit haben wir 2 Hunde in unserem Haus."
             }
         }
     },

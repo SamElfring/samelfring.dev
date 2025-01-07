@@ -11,7 +11,7 @@
             <p class="text-sm md:text-lg text-slate-400 font-thin">Software Developer</p>
             <h1 class="text-3xl md:text-6xl font-bold">Sam Elfring</h1>
             <h2 class="text-slate-400 mt-2 md:text-xl">
-                {{ $t("hero.description") }}
+                {{ $t("hero.description", { age: calcAge() }) }}
             </h2>
 
             <div class="mt-4 text-slate-300 flex items-center">
@@ -54,4 +54,10 @@ const socialMediaLinks = [
 ];
 
 const heroImg = ref(null);
+
+const calcAge = () => {
+    const birthDate = "2003-08-25";
+
+    return Math.floor((new Date() - new Date(birthDate).getTime()) / 3.15576e10);
+};
 </script>
