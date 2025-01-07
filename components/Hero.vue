@@ -50,6 +50,11 @@ const socialMediaLinks = [
         icon: "fa-brands fa-linkedin-in",
         url: "https://www.linkedin.com/in/sam-elfring-061822194/",
         label: "Navigate to LinkedIn page"
+    },
+    {
+        icon: "fa-brands fa-github",
+        url: "https://github.com/SamElfring",
+        label: "Navigate to GitHub page"
     }
 ];
 
