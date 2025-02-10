@@ -48,6 +48,7 @@
         v-if="selectedProject"
         :project="selectedProject"
         @close="selectedProject = null"
+        class="hidden lg:flex"
     />
 </template>
 
@@ -76,7 +77,9 @@ onMounted(() => {
 });
 
 const openProjectPopup = (project) => {
-    selectedProject.value = project;
+    if (window.innerWidth > 1024) {
+        selectedProject.value = project;
+    }
 };
 
 const projectItems = [
