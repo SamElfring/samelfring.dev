@@ -9,6 +9,7 @@
             <div
                 v-for="item in projectItems"
                 :key="item.title"
+                @click="openProjectPopup(item)"
                 class="bg-slate-900 border border-slate-600 flex flex-col hover:scale-[1.01] transition-transform"
             >
                 <div
@@ -42,12 +43,22 @@
             </div>
         </div>
     </section>
+
+    <ProjectPopup
+        v-if="selectedProject"
+        :project="selectedProject"
+        @close="selectedProject = null"
+    />
 </template>
 
 <script setup>
+import { ref, onMounted } from "vue";
 import { useIntersectionAnimation } from "@/composables/useIntersectionAnimation.js";
 
+import ProjectPopup from "@/components/ProjectPopup.vue";
+
 const projects = ref(null);
+const selectedProject = ref(null);
 
 onMounted(() => {
     if ("IntersectionObserver" in window) {
@@ -63,6 +74,10 @@ onMounted(() => {
         }).start();
     }
 });
+
+const openProjectPopup = (project) => {
+    selectedProject.value = project;
+};
 
 const projectItems = [
     {
