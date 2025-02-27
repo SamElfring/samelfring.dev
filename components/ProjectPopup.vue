@@ -5,10 +5,10 @@
     >
         <div
             @click.stop
-            class="bg-slate-900 rounded-lg max-w-3xl w-full border border-slate-600 overflow-hidden"
+            class="bg-slate-900 rounded-lg max-w-xl w-full border border-slate-600 overflow-hidden"
         >
             <div
-                class="bg-center bg-cover bg-no-repeat h-96 p-2 relative flex items-end border-b border-slate-600"
+                class="bg-center bg-contain bg-no-repeat h-96 p-2 relative flex items-end border-b border-slate-600"
                 :style="{ backgroundImage: `url('${props.project.img}')` }"
             >
                 <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-black"></div>
