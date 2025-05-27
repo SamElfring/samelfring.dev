@@ -3,7 +3,7 @@
         id="study"
         ref="study"
     >
-        <h2 class="section-title">Opleidingen</h2>
+        <h2 class="section-title">{{ $t("main.studies") }}</h2>
 
         <HelpersTimeline :items="timeLineItems" />
     </section>
