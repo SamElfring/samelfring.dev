@@ -84,24 +84,6 @@ const projectItems = [
         ]
     },
     {
-        title: "projects.rentACar.title",
-        img: "img/projects/rentacar.webp",
-        description: "projects.rentACar.text",
-        urls: [["fa-brands fa-github", "https://github.com/SamElfring/RentACar", "Navigate to RentACar GitHub page"]]
-    },
-    {
-        title: "projects.calc4You.title",
-        img: "img/projects/calc4you.webp",
-        description: "projects.calc4You.text",
-        urls: [
-            [
-                "fa-brands fa-github",
-                "https://github.com/LucasHuls/Calc4You-Project-Groep-5",
-                "Navigate to Calc4You GitHub page"
-            ]
-        ]
-    },
-    {
         title: "projects.gameFinder.title",
         img: "img/projects/gamefinder.webp",
         description: "projects.gameFinder.text",

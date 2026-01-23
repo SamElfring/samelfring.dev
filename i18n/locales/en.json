@@ -61,14 +61,6 @@
             "title": "Synology Photos Reminder",
             "text": "This Node.js project searches for photos stored on a Synology NAS server. It finds photos taken on the current day, but a random number of years ago, and then sends them to your email."
         },
-        "rentACar": {
-            "title": "RentACar (Practice Exam)",
-            "text": "In this practice exam, we create a car rental website for Mr. Jansen. The company FastDevelopment develops software on commission. The car rental company Rent-a-Car has requested the development of a new web application."
-        },
-        "calc4You": {
-            "title": "Calc4You",
-            "text": "For a school assignment, I collaborated in a SCRUM team to create a calculator application in .NET Core. This application also includes age verification for calculator usage."
-        },
         "gameFinder": {
             "title": "GameFinder",
             "text": "During my internship at Cube B.V., I created an assignment (to learn the Vue.js framework) that allows you to find any game using filters through the IGDB API."
