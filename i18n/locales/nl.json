@@ -30,16 +30,16 @@
     },
     "experiences": {
         "campingcare": {
-            "title": "Software Developer bij Camping Care",
-            "text": "Ik werk nu bij Camping.care in Denekamp waar ik samen met een klein team werk aan een PMS voor campings dat wordt gebruikt over heel Europa."
+            "title": "Full-Stack Developer bij Camping Care",
+            "text": "In 2026 ben ik gestart als Full-Stack Developer. Inmiddels werk ik met een steeds groter wordend team aan de verdere ontwikkeling van een snelgroeiend PMS."
+        },
+        "campingcare-part-time": {
+            "title": "Developer (bijbaan) bij Camping Care",
+            "text": "In 2022 ben ik begonnen als Developer (bijbaan) bij Camping.care in Denekamp waar ik samen met een klein team werk aan een PMS voor campings dat wordt gebruikt over heel Europa."
         },
         "cube": {
             "title": "Stage bij Cube B.V.",
             "text": "Meegedraaid in het team en gewerkt aan verschillende projecten waaronder het ontwikkelen van een website waarmee heel eenvoudig Cookie meldingen worden gegenereerd."
-        },
-        "telecats-conceptlisous": {
-            "title": "Meeloopdagen bij Telecats B.V. en Conceptlisious",
-            "text": "Tijdens deze meeloopdagen heb ik meerdere SCRUM sessies bijgewoond en ben ik bezig geweest met het testen van virtual reality spellen."
         }
     },
     "studies": {

@@ -31,21 +31,22 @@ onMounted(() => {
     }
 });
 
+// @prettier-ignore
 const timeLineItems = [
     {
-        time: "2022 - nu",
+        time: "2026 - nu",
         title: "experiences.campingcare.title",
         text: "experiences.campingcare.text"
+    },
+    {
+        time: "2022 - 2025",
+        title: "experiences.campingcare-part-time.title",
+        text: "experiences.campingcare-part-time.text"
     },
     {
         time: "2020",
         title: "experiences.cube.title",
         text: "experiences.cube.text"
-    },
-    {
-        time: "2018",
-        title: "experiences.telecats-conceptlisous.title",
-        text: "experiences.telecats-conceptlisous.text"
     }
 ];
 </script>
