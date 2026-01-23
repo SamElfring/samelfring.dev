@@ -12,7 +12,8 @@
             <select
                 name="language"
                 class="rounded p-2 bg-slate-700 border-slate-600 placeholder-slate-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                @change="$i18n.locale = $event.target.value"
+                @change="setLocale($event.target.value)"
+                :value="locale"
                 aria-label="Language"
             >
                 <option
@@ -51,6 +52,8 @@
 </template>
 
 <script setup>
+const { locale, setLocale } = useI18n();
+
 const navLinks = [
     { name: "main.aboutMe", link: "#about-me" },
     { name: "main.experiences", link: "#experiences" },

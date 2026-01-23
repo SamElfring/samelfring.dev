@@ -4,7 +4,13 @@ export default defineNuxtConfig({
     modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n", "@hypernym/nuxt-anime"],
     css: ["./assets/css/main.css", "@fortawesome/fontawesome-svg-core/styles.css"],
     i18n: {
-        vueI18n: "./i18n.config.ts"
+        locales: [
+            { code: "en", file: "en.json" },
+            { code: "nl", file: "nl.json" },
+            { code: "de", file: "de.json" }
+        ],
+        langDir: "locales",
+        defaultLocale: "nl"
     },
     build: {
         transpile: [
@@ -18,7 +24,6 @@ export default defineNuxtConfig({
             title: "Sam Elfring - Software Developer",
             meta: [
                 {
-                    hid: "description",
                     name: "description",
                     content:
                         "I am Sam, a 20-year-old Software Developer with a passion for creating digital solutions. I study at Saxion in the Software Development program."
