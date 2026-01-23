@@ -31,9 +31,10 @@ onMounted(() => {
     }
 });
 
+// @prettier-ignore
 const timeLineItems = [
     {
-        time: "2023 - nu",
+        time: "2023 - 2025",
         title: "studies.saxion.title",
         text: "studies.saxion.text"
     },
