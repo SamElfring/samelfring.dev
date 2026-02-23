@@ -10,7 +10,7 @@
         "go_home": "Back to home page"
     },
     "hero": {
-        "description": "I am Sam, a {age}-year-old Software Developer with a passion for creating digital solutions. I study at Saxion in Enschede in the Software Development program. In my free time, I am dedicated to both fitness and soccer because I believe that a healthy mind and a healthy body go hand in hand with my creative work."
+        "description": "I'm Sam, a {age}-year-old Full Stack Developer, I studied at Saxion University and am currently working at Camping.care. Outside of code, I'm into fitness and football."
     },
     "aboutMe": {
         "blocks": {

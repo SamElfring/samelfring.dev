@@ -10,7 +10,7 @@
         "go_home": "Terug naar home pagina"
     },
     "hero": {
-        "description": "Ik ben Sam, een {age}-jarige Software Developer met een passie voor het creëren van digitale oplossingen. Ik studeer aan het Saxion in Enschede bij de opleiding Software Development. In mijn vrije tijd ben ik toegewijd aan zowel fitness als voetbal, omdat ik geloof dat een gezonde geest en een gezond lichaam hand in hand gaan met mijn creatieve werk."
+        "description": "Ik ben Sam, een {age}-jarige Full Stack Developer, ik heb gestudeerd aan het Saxion en werk momenteel bij Camping.care. Naast programmeren ben ik actief in fitness en voetbal."
     },
     "aboutMe": {
         "blocks": {

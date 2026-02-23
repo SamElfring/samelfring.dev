@@ -10,7 +10,7 @@
         "go_home": "Zurück zur Startseite"
     },
     "hero": {
-        "description": "Ich bin Sam, ein {age}-jähriger Softwareentwickler mit Leidenschaft für die Erstellung digitaler Lösungen. Ich studiere an der Saxion in Enschede im Studiengang Softwareentwicklung. In meiner Freizeit widme ich mich sowohl dem Fitnesstraining als auch dem Fußball, denn ich glaube, dass ein gesunder Geist und ein gesunder Körper Hand in Hand mit meiner kreativen Arbeit gehen."
+        "description": "Ich bin Sam, ein {age}-jähriger Full Stack Developer, ich habe an der Saxion University studiert und arbeite derzeit bei Camping.care. Neben dem Programmieren interessiere ich mich für Fitness und Fußball."
     },
     "aboutMe": {
         "blocks": {
