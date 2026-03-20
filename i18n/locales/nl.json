@@ -55,15 +55,18 @@
     "projects": {
         "workoutTracker": {
             "title": "Workout Tracker",
-            "text": "De laatste tijd ben ik bezig geweest met het werken aan een PWA die je trainingen kan bijhouden. Ik vond de bestaande apps die dit doen te duur voor wat ze bieden. Dus heb ik mijn eigen implementatie gemaakt met Vue.js en Firebase. Het is nog wel in ontwikkeling."
+            "text": "De laatste tijd ben ik bezig geweest met het werken aan een PWA die je trainingen kan bijhouden. Ik vond de bestaande apps die dit doen te duur voor wat ze bieden. Dus heb ik mijn eigen implementatie gemaakt met Vue.js en Firebase. Het is nog wel in ontwikkeling.",
+            "detailedText": "Workout Tracker is een Progressive Web App gebouwd met Vue.js en Firebase waarmee je je gymtrainingen kunt bijhouden zonder abonnementskosten. Je kunt eigen oefeningen aanmaken, trainingsschema's opbouwen en je trainingsgeschiedenis bekijken. De app werkt offline en is installeerbaar als een native app. Authenticatie verloopt via Firebase Auth en alle data synchroniseert realtime via Firestore. Ik heb dit gebouwd omdat bestaande fitness-apps naar mijn mening te duur zijn voor wat ze bieden, dus heb ik precies gebouwd wat ik zelf nodig had."
         },
         "synologyPhotosReminder": {
             "title": "Synology Photos Reminder",
-            "text": "Dit Node.js project zoekt naar foto's die zijn opgeslagen op een Synology NAS-server. Het vindt foto's die op de huidige dag zijn gemaakt, maar een willekeurig aantal jaren geleden, en stuurt ze vervolgens naar uw e-mail."
+            "text": "Dit Node.js project zoekt naar foto's die zijn opgeslagen op een Synology NAS-server. Het vindt foto's die op de huidige dag zijn gemaakt, maar een willekeurig aantal jaren geleden, en stuurt ze vervolgens naar uw e-mail.",
+            "detailedText": "Synology Photos Reminder is een Node.js-applicatie die verbinding maakt met de Synology Photos API op je eigen NAS. Elke dag doorzoekt het je fotobibliotheek naar foto's die op dezelfde datum in eerdere jaren zijn gemaakt, selecteert een willekeurige set en stuurt die per e-mail naar je toe — een soort 'op deze dag'-feature. Het project draait als een geplande taak en gebruikt Nodemailer voor e-mailverzending."
         },
         "gameFinder": {
             "title": "GameFinder",
-            "text": "Tijdens mijn stage bij Cube B.V. heb ik (om het Vue.js framework te leren kennen) heb ik een opdracht gemaakt waarmee je via de IGDB api elk spel kan vinden met behulp van filters!"
+            "text": "Tijdens mijn stage bij Cube B.V. heb ik (om het Vue.js framework te leren kennen) heb ik een opdracht gemaakt waarmee je via de IGDB api elk spel kan vinden met behulp van filters!",
+            "detailedText": "GameFinder was een leerproject dat ik tijdens mijn stage bij Cube B.V. heb gebouwd om praktijkervaring op te doen met Vue.js. De app integreert met de IGDB API en laat je games zoeken en filteren op genre, platform, jaar en beoordeling. Het was mijn eerste echte Vue.js-project en gaf me een stevige basis in componentgebaseerde architectuur, reactieve state en werken met externe REST-API's. Het project legde de fundering voor de frontend-vaardigheden die ik in mijn verdere carrière heb uitgebouwd."
         }
     }
 }

@@ -55,15 +55,18 @@
     "projects": {
         "workoutTracker": {
             "title": "Workout Tracker",
-            "text": "Kürzlich habe ich an einer PWA gearbeitet, die deine Workouts verfolgen kann. Ich fand die vorhandenen Apps, die dies tun, zu teuer für das, was sie bieten. Also habe ich meine eigene mit Vue.js und Firebase gemacht. Sie ist jedoch noch in Arbeit."
+            "text": "Kürzlich habe ich an einer PWA gearbeitet, die deine Workouts verfolgen kann. Ich fand die vorhandenen Apps, die dies tun, zu teuer für das, was sie bieten. Also habe ich meine eigene mit Vue.js und Firebase gemacht. Sie ist jedoch noch in Arbeit.",
+            "detailedText": "Workout Tracker ist eine Progressive Web App, die mit Vue.js und Firebase erstellt wurde und es ermöglicht, Trainingseinheiten ohne Abonnementgebühren zu verfolgen. Du kannst eigene Übungen anlegen, Trainingspläne erstellen und deinen Fortschritt über Zeit verfolgen. Die App funktioniert offline und lässt sich wie eine native App installieren. Die Authentifizierung erfolgt über Firebase Auth, alle Daten werden in Echtzeit über Firestore synchronisiert. Ich habe dies gebaut, weil mir bestehende Fitness-Apps zu teuer für das waren, was sie bieten — also habe ich genau das gebaut, was ich selbst brauchte."
         },
         "synologyPhotosReminder": {
             "title": "Synology Fotos Erinnerung",
-            "text": "Dieses Node.js-Projekt sucht nach Fotos, die auf einem Synology NAS-Server gespeichert sind. Es findet Fotos, die am aktuellen Tag, aber vor einer zufälligen Anzahl von Jahren aufgenommen wurden, und sendet sie dann an Ihre E-Mail-Adresse."
+            "text": "Dieses Node.js-Projekt sucht nach Fotos, die auf einem Synology NAS-Server gespeichert sind. Es findet Fotos, die am aktuellen Tag, aber vor einer zufälligen Anzahl von Jahren aufgenommen wurden, und sendet sie dann an Ihre E-Mail-Adresse.",
+            "detailedText": "Synology Photos Reminder ist eine Node.js-Anwendung, die sich mit der Synology Photos API auf deinem eigenen NAS verbindet. Jeden Tag durchsucht sie deine Fotobibliothek nach Bildern, die am selben Datum in früheren Jahren aufgenommen wurden, wählt eine zufällige Auswahl aus und sendet diese per E-Mail eine Art \u201eAn diesem Tag\u201c-Funktion. Das Projekt läuft als geplante Aufgabe und verwendet Nodemailer für den E-Mail-Versand."
         },
         "gameFinder": {
             "title": "GameFinder",
-            "text": "Während meines Praktikums bei Cube B.V. habe ich eine Aufgabe erstellt (um das Vue.js-Framework zu erlernen), mit der Sie mithilfe von Filtern über die IGDB-API jedes beliebige Spiel finden können."
+            "text": "Während meines Praktikums bei Cube B.V. habe ich eine Aufgabe erstellt (um das Vue.js-Framework zu erlernen), mit der Sie mithilfe von Filtern über die IGDB-API jedes beliebige Spiel finden können.",
+            "detailedText": "GameFinder war ein Lernprojekt, das ich während meines Praktikums bei Cube B.V. entwickelt habe, um praktische Erfahrungen mit Vue.js zu sammeln. Die App integriert sich mit der IGDB-API und ermöglicht die Suche und Filterung von Spielen nach Genre, Plattform, Erscheinungsjahr und Bewertung. Es war mein erstes echtes Vue.js-Projekt und gab mir eine solide Grundlage in komponentenbasierter Architektur, reaktivem State und der Arbeit mit externen REST-APIs. Das Projekt legte den Grundstein für die Frontend-Fähigkeiten, die ich in meiner weiteren Karriere ausgebaut habe."
         }
     }
 }

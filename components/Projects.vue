@@ -9,7 +9,8 @@
             <div
                 v-for="item in projectItems"
                 :key="item.title"
-                class="bg-slate-900 border border-slate-600 flex flex-col hover:scale-[1.01] transition-transform"
+                class="bg-slate-900 border border-slate-600 flex flex-col hover:scale-[1.01] transition-transform cursor-pointer"
+                @click="selectedProject = item"
             >
                 <div
                     class="bg-center bg-contain bg-no-repeat h-56 p-2 relative flex items-end"
@@ -27,6 +28,7 @@
                             target="_blank"
                             class="flex gap-2"
                             :aria-label="url[2]"
+                            @click.stop
                         >
                             <font-awesome-icon
                                 :icon="url[0]"
@@ -41,6 +43,11 @@
                 </div>
             </div>
         </div>
+
+        <ProjectDialog
+            :project="selectedProject"
+            @close="selectedProject = null"
+        />
     </section>
 </template>
 
@@ -48,6 +55,7 @@
 import { useIntersectionAnimation } from "@/composables/useIntersectionAnimation.js";
 
 const projects = ref(null);
+const selectedProject = ref(null);
 
 onMounted(() => {
     if ("IntersectionObserver" in window) {
@@ -68,13 +76,21 @@ const projectItems = [
     {
         title: "projects.workoutTracker.title",
         img: "img/projects/workouttracker.webp",
+        images: [
+            "img/projects/workouttracker.webp",
+            "img/projects/workouttracker2.webp",
+            "img/projects/workouttracker3.webp"
+        ],
         description: "projects.workoutTracker.text",
+        detailedDescription: "projects.workoutTracker.detailedText",
         urls: [["fa-up-right-from-square", "https://gym.samelfring.dev", "Navigate to the Workout Tracker website"]]
     },
     {
         title: "projects.synologyPhotosReminder.title",
         img: "img/projects/synologyapp.webp",
+        images: ["img/projects/synologyapp.webp"],
         description: "projects.synologyPhotosReminder.text",
+        detailedDescription: "projects.synologyPhotosReminder.detailedText",
         urls: [
             [
                 "fa-brands fa-github",
@@ -86,7 +102,9 @@ const projectItems = [
     {
         title: "projects.gameFinder.title",
         img: "img/projects/gamefinder.webp",
+        images: ["img/projects/gamefinder.webp"],
         description: "projects.gameFinder.text",
+        detailedDescription: "projects.gameFinder.detailedText",
         urls: [
             [
                 "fa-brands fa-github",
