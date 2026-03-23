@@ -2,7 +2,7 @@
     <section id="about-me">
         <h2 class="section-title">{{ $t("main.aboutMe") }}</h2>
 
-        <div class="grid grid-cols-1 mt-4 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="grid grid-cols-1 mt-4 gap-6 sm:grid-cols-2">
             <AboutMeBlock
                 v-for="(block, index) in blocks"
                 :key="index"
@@ -53,11 +53,6 @@ const blocks = [
         icon: "fa-dumbbell",
         title: "aboutMe.blocks.fitness.title",
         text: "aboutMe.blocks.fitness.text"
-    },
-    {
-        icon: "fa-dog",
-        title: "aboutMe.blocks.animals.title",
-        text: "aboutMe.blocks.animals.text"
     }
 ];
 </script>

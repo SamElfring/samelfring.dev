@@ -1,17 +1,16 @@
 <template>
     <div
-        class="flex gap-6"
+        class="flex flex-col items-center text-center gap-4 bg-slate-800/60 rounded-2xl p-8"
         ref="root"
     >
         <font-awesome-icon
             :icon="icon"
-            class="text-4xl text-blue-500 w-10"
+            class="text-5xl text-blue-500"
         />
 
         <div>
-            <h3 class="text-xl font-semibold">{{ $t(title) }}</h3>
-
-            <h4 class="text-slate-400">{{ $t(text) }}</h4>
+            <h3 class="text-xl font-semibold mb-2">{{ $t(title) }}</h3>
+            <p class="text-slate-400">{{ $t(text) }}</p>
         </div>
     </div>
 </template>
